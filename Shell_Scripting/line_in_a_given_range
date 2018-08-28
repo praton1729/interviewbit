@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sentence=`head -n 1 input`
+array=($sentence)
+start_line=${array[0]}
+end_line=${array[1]}
+
+echo $start_line $end_line
+
+awk 'NR <= "'"$end_line"'" && NR>= "'"$start_line"'"' input
