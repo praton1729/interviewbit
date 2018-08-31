@@ -31,9 +31,29 @@ listnode* detectCycle(listnode* A) {
         
         if(slow==fast){
             
-            return slow;
+            break;
         }
     }
     
-    return NULL;
+    if(slow!=fast){
+        return NULL;
+    }
+    
+    listnode *temp = fast;
+    fast = fast->next;
+    int count = 1;
+    while(fast!=temp)
+    {
+     fast = fast->next;
+     ++count;
+    }
+    
+    listnode *result = A;
+    temp = A;
+    
+    while(count--){ temp = temp->next; }
+    
+    while(result!=temp){ result = result->next; temp = temp->next; }
+    return result;
 }
+
