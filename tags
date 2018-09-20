@@ -21,7 +21,7 @@ A	Arrays/next_permutation.py	/^A = range(1,5)$/;"	v
 A	Arrays/noble_integer.py	/^A = [5,6,2]$/;"	v
 A	Arrays/rearrange_array.py	/^A = [3,2,0,1]$/;"	v
 A	Arrays/rotate_90.py	/^A = [[1,2],[3,4]]$/;"	v
-A	Arrays/set_matrix_zeros.py	/^A = [[1,0,1],[1,1,1],[1,1,1]]$/;"	v
+A	Arrays/set_matrix_zeros.py	/^A = [[0, 0],[1, 0]]$/;"	v
 A	Arrays/spiral_order_print.py	/^A = [[1,2,3],[4,5,6],[7,8,9]]$/;"	v
 A	Arrays/spiral_order_print_2.py	/^A = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]$/;"	v
 A	Arrays/sub_unsort.py	/^A = [ 4, 15, 4, 4, 15, 18, 20 ]$/;"	v
@@ -37,34 +37,61 @@ A	Strings/palindrome_string.py	/^A = "race a car"$/;"	v
 A	Strings/valid_number.py	/^A = " 0.1"$/;"	v
 B	Arrays/find_Perm.py	/^B = 6$/;"	v
 B	Arrays/spiral_order_print_2.py	/^B = []$/;"	v
+Create_Stack	Stacks_and_Queues/Stack_Tests/stack_array.h	/^Stack* Create_Stack(unsigned create_capacity){$/;"	f
+ERROR	Strings/atoi.c	13;"	d	file:
 Interval	Arrays/merged_overlapping_intervals.py	/^class Interval:$/;"	c
 K	Arrays/hotel_booking.py	/^K = 1$/;"	v
+LCP_two_strings	Strings/longest_common_prefix.c	/^char* LCP_two_strings(char* x, char* y)$/;"	f
+ListNode	Linked_List/partition_LL.c	/^struct ListNode {$/;"	s	file:
+ListNode	Linked_List/reorder_LL.c	/^ struct ListNode {$/;"	s	file:
 PrettyPrint	Arrays/Prettyprint_2.py	/^def PrettyPrint(A):$/;"	f
 S	Arrays/flip.py	/^S = "1101"$/;"	v
 Solution	Strings/roman_to_integer.py	/^class Solution:$/;"	c
 Solution	Strings/valid_number.py	/^class Solution:$/;"	c
 Solution	Strings/zig_zag_pattern.py	/^class Solution:$/;"	c
+Stack	Stacks_and_Queues/Stack_Tests/stack_array.h	/^}Stack;$/;"	t	typeref:struct:Stack_t
+Stack	Stacks_and_Queues/evaluate_expression.c	/^ typedef struct Stack $/;"	s	file:
+Stack_t	Stacks_and_Queues/Stack_Tests/stack_array.h	/^typedef struct Stack_t$/;"	s
 __init__	Arrays/merged_overlapping_intervals.py	/^    def __init__(self,s=0,e=0):$/;"	m	class:Interval
 a	Strings/roman_to_integer.py	/^a = Solution()$/;"	v
 a	Strings/valid_number.py	/^a = Solution()$/;"	v
 a	Strings/zig_zag_pattern.py	/^a = Solution()$/;"	v
 arrange	Arrays/rearrange_array.py	/^def arrange(A):$/;"	f
+array	Stacks_and_Queues/Stack_Tests/stack_array.h	/^	int* array;$/;"	m	struct:Stack_t
+array	Stacks_and_Queues/evaluate_expression.c	/^     int* array;$/;"	m	struct:Stack	file:
 arrive	Arrays/hotel_booking.py	/^arrive = [40,18]$/;"	v
+atoi_custom	Strings/atoi.c	/^int atoi_custom(const char* A) {$/;"	f
+binary	Binary_Search/search_range.c	/^int binary(const int *A,int n1,int B,int key)$/;"	f
 binarySearch	Binary_Search/rotated_unsorted_binary_search.c	/^int binarySearch(int* arr, int low,int high, int key)$/;"	f
+binary_rotation_index	Binary_Search/binary_rotated_array_search.c	/^int binary_rotation_index(const int* A, int n1){$/;"	f
+cap	Stacks_and_Queues/evaluate_expression.c	/^     unsigned cap;$/;"	m	struct:Stack	file:
+capacity	Stacks_and_Queues/Stack_Tests/stack_array.h	/^	unsigned capacity;$/;"	m	struct:Stack_t
 chars_less_than	Arrays/sorted_permutation_rank_string.py	/^    def chars_less_than(i,A):$/;"	f	function:findrank
 col2num	Math/excel_column_to_number.py	/^def col2num(A):$/;"	f
+comparator	Two_Pointers/merge_sorted_lists.c	/^int comparator(const void *p, const void *q)  $/;"	f
+compare	Two_Pointers/count_triangles.c	/^ int compare(const void* a, const void* b){$/;"	f
+compareVersion	Strings/compare_version.c	/^int compareVersion(char* A, char* B) {$/;"	f
+concat	Strings/count_and_say.c	/^char* concat(char* x, char* y)$/;"	f
 convert	Strings/zig_zag_pattern.py	/^    def convert(self, A, B):$/;"	m	class:Solution
+count_and_say	Strings/count_and_say.c	/^char* count_and_say(int A)$/;"	f
 count_ones	Arrays/flip.py	/^    def count_ones(A,i,j):$/;"	f	function:flip
 cpFact	Math/largest_coprime_divisor.py	/^def cpFact(A, B):$/;"	f
+create_stack	Stacks_and_Queues/evaluate_expression.c	/^ stack* create_stack(unsigned cap){$/;"	f
+data	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^	int data;$/;"	m	struct:stack_node
 depart	Arrays/hotel_booking.py	/^depart = [40,43]$/;"	v
+detectCycle	Linked_List/list_cycle.c	/^listnode* detectCycle(listnode* A) {$/;"	f
 diagonal	Arrays/anti_diagonal.py	/^def diagonal(A):$/;"	f
 diffPossible	Two_Pointers/diffPossible.c	/^int diffPossible(int* A, int n1, int B) $/;"	f
 diff_bits_pair	Bit_Manipulation/different_bits_sum_pairwise.py	/^    def diff_bits_pair(x,y):$/;"	f	function:diff_bits_sum
 diff_bits_sum	Bit_Manipulation/different_bits_sum_pairwise.py	/^def diff_bits_sum(A):$/;"	f
 diff_bits_sum_alter	Bit_Manipulation/different_bits_sum_pairwise.py	/^def diff_bits_sum_alter(A):$/;"	f
 diff_func	Arrays/max_difference.py	/^    def diff_func(A,i,j):$/;"	f	function:maxArr
+digit	Strings/integer_to_roman.c	/^int digit(char num,int n, int i, char* c){$/;"	f
 divide	Bit_Manipulation/divide_integers.py	/^def divide(x,y):$/;"	f
+evalRPN	Stacks_and_Queues/evaluate_expression.c	/^int evalRPN(char** A, int n1) {$/;"	f
 fac	Arrays/sorted_permutation_rank_string.py	/^    def fac(n):$/;"	f	function:findrank
+findMedian	Binary_Search/find_matrix_median.c	/^int findMedian(int A[][], int n11, int n12) {$/;"	f
+findMin	Binary_Search/binary_rotated_array_search.c	/^int findMin(const int* A, int n1) {$/;"	f
 find_Perm	Arrays/find_Perm.py	/^def find_Perm(A,B):$/;"	f
 find_min_xor	Bit_Manipulation/find_min_xor.py	/^def find_min_xor(A):$/;"	f
 find_pivot	Binary_Search/rotated_unsorted_binary_search.c	/^int find_pivot(int* A, int low, int high){$/;"	f
@@ -89,16 +116,44 @@ hamming_distance_pairwise_alter	Arrays/hamming_distance.py	/^def hamming_distanc
 hamming_distance_pairwise_sum	Arrays/hamming_distance.py	/^def hamming_distance_pairwise_sum(A):$/;"	f
 hotel	Arrays/hotel_booking.py	/^def hotel(arrive,depart,K):$/;"	f
 intervals	Arrays/merged_overlapping_intervals.py	/^intervals = [Interval(1,2),Interval(3,4),Interval(1,3)]$/;"	v
+isEmpty	Stacks_and_Queues/evaluate_expression.c	/^ int isEmpty(stack* new_stack){$/;"	f
 isNumber	Strings/valid_number.py	/^    def isNumber(self, A):$/;"	m	class:Solution
 isPalindrome	Strings/palindrome_string.py	/^def isPalindrome(A):$/;"	f
 isPower	Math/power_of_two_integers.py	/^def isPower(A):$/;"	f
 isPrime	Math/list_of_primes.py	/^isPrime = sieve_of_erastothenes(A)$/;"	v
+is_empty	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^int is_empty(stack_node* head){$/;"	f
+is_empty	Stacks_and_Queues/Stack_Tests/stack_array.h	/^int is_empty(Stack* stack)$/;"	f
+is_full	Stacks_and_Queues/Stack_Tests/stack_array.h	/^int is_full(Stack* stack)$/;"	f
+is_numeric_char	Strings/atoi.c	/^int is_numeric_char(char s){$/;"	f
 isdigit	Strings/valid_number.py	/^        def isdigit(x):$/;"	f	function:Solution.isNumber
 largest_number	Arrays/largest_number_array.py	/^def largest_number(A):$/;"	f
 lengthOfLastWord	Strings/last_word_string.py	/^def lengthOfLastWord(A):$/;"	f
 lexographically_smaller	Arrays/flip.py	/^    def lexographically_smaller(a,b):$/;"	f	function:flip
 list_of_primes	Math/list_of_primes.py	/^def list_of_primes(isPrime):$/;"	f
+listnode	Linked_List/partition_LL.c	/^typedef struct ListNode listnode;$/;"	t	typeref:struct:ListNode	file:
+listnode	Linked_List/reorder_LL.c	/^ typedef struct ListNode listnode;$/;"	t	typeref:struct:ListNode	file:
+listnode_new	Linked_List/partition_LL.c	/^listnode* listnode_new(int val) {$/;"	f
+listnode_new	Linked_List/reorder_LL.c	/^ listnode* listnode_new(int val) {$/;"	f
+longestCommonPrefix	Strings/longest_common_prefix.c	/^char* longestCommonPrefix(char** A, int n1) {$/;"	f
+main	Binary_Search/binary_rotated_array_search.c	/^int main(int argc, char* argv)$/;"	f
+main	Binary_Search/find_matrix_median.c	/^int main(int argc, char* argv)$/;"	f
+main	Binary_Search/search_insert.c	/^int main(int argc, char* argv)$/;"	f
+main	Binary_Search/search_range.c	/^int main(int argc, char* argv)$/;"	f
 main	Binary_Search/square_root_integer.c	/^int main(){$/;"	f
+main	Stacks_and_Queues/Stack_Tests/stack_test_LL.c	/^int main(){$/;"	f
+main	Stacks_and_Queues/Stack_Tests/stack_test_array.c	/^int main(){$/;"	f
+main	Stacks_and_Queues/simplify_directory.c	/^int main(){$/;"	f
+main	Stacks_and_Queues/simplify_directory_interviewbit_solution.c	/^int main(){$/;"	f
+main	Strings/atoi.c	/^int main(){$/;"	f
+main	Strings/compare_version.c	/^int main(int argc, char* argv)$/;"	f
+main	Strings/count_and_say.c	/^int main(int argc, char* argv[])$/;"	f
+main	Strings/integer_to_roman.c	/^int main(int argc, char* argv)$/;"	f
+main	Strings/longest_common_prefix.c	/^int main(){$/;"	f
+main	Strings/pretty_json.c	/^int main(){$/;"	f
+main	Two_Pointers/count_triangles.c	/^int main(int argc, char* argv)$/;"	f
+main	Two_Pointers/merge_sorted_lists.c	/^int main(int argc, char* argv)$/;"	f
+main	Two_Pointers/remove_duplicate_sorted_array.c	/^int main(int argc, char* argv)$/;"	f
+main	Two_Pointers/remove_duplicate_sorted_array_II.c	/^int main(int argc, char* argv)$/;"	f
 max	Two_Pointers/diffPossible.c	8;"	d	file:
 max	Two_Pointers/minimize_absolute_difference.c	12;"	d	file:
 maxArr	Arrays/max_difference.py	/^def maxArr(A):$/;"	f
@@ -108,20 +163,44 @@ max_gap	Arrays/max_distance.py	/^def max_gap(A):$/;"	f
 maximum	Two_Pointers/minimize_absolute_difference.c	/^ int maximum(int x, int y, int z)$/;"	f
 maxone	Two_Pointers/maxone.c	/^int* maxone(int* A, int n1, int B, int *len1) {$/;"	f
 merge	Arrays/merged_overlapping_intervals.py	/^def merge(intervals):$/;"	f
+merge	Two_Pointers/merge_sorted_lists.c	/^int* merge(int* A, int n1, int* B, int n2) {$/;"	f
 min	Two_Pointers/diffPossible.c	9;"	d	file:
 min	Two_Pointers/minimize_absolute_difference.c	13;"	d	file:
 minimum	Two_Pointers/minimize_absolute_difference.c	/^  int minimum(int x, int y, int z)$/;"	f
+my_ceil	Binary_Search/search_range.c	/^int my_ceil(const int* A, int low, int high, int B){$/;"	f
 my_cmp	Arrays/largest_number_array.py	/^    def my_cmp(a,b):$/;"	f	function:largest_number
+my_floor	Binary_Search/search_range.c	/^int my_floor(const int* A, int low, int high, int B){$/;"	f
+nTriang	Two_Pointers/count_triangles.c	/^int nTriang(int* A, int n1) {$/;"	f
+new_node	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^stack_node* new_node(int new_data){$/;"	f
+next	Linked_List/partition_LL.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	Linked_List/reorder_LL.c	/^     struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^	struct stack_node* next;$/;"	m	struct:stack_node	typeref:struct:stack_node::stack_node
 next_permutation	Arrays/next_permutation.py	/^def next_permutation(A):$/;"	f
 noble_integer	Arrays/noble_integer.py	/^def noble_integer(A):$/;"	f
 noble_integer_alter	Arrays/noble_integer.py	/^def noble_integer_alter(A):$/;"	f
 num2col	Math/excel_column_to_number.py	/^def num2col(A):$/;"	f
+partition	Linked_List/partition_LL.c	/^listnode* partition(listnode* A, int B) {$/;"	f
+peek	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^int peek(stack_node* head){$/;"	f
+peek	Stacks_and_Queues/Stack_Tests/stack_array.h	/^int peek(Stack* stack)$/;"	f
+peek	Stacks_and_Queues/evaluate_expression.c	/^ char peek(stack* new_stack){$/;"	f
 plusOne	Arrays/add_one_number.py	/^def plusOne(A):        $/;"	f
+pop	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^int pop(stack_node** head){$/;"	f
+pop	Stacks_and_Queues/Stack_Tests/stack_array.h	/^int pop(Stack* stack)$/;"	f
+pop	Stacks_and_Queues/evaluate_expression.c	/^ int pop(stack* new_stack){$/;"	f
 power	Strings/power_of_2.py	/^def power(A):$/;"	f
 powmod	Binary_Search/powmod.c	/^int powmod(int x, int n, int d) {$/;"	f
+prettyJSON	Strings/pretty_json.c	/^char** prettyJSON(char* A, int *len1) {$/;"	f
 pretty_print	Arrays/pretty_print_jump_problem.py	/^def pretty_print(A):$/;"	f
+print_roman	Strings/integer_to_roman.c	/^void print_roman(int A){$/;"	f
+push	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^void push(stack_node** head, int push_data){$/;"	f
+push	Stacks_and_Queues/Stack_Tests/stack_array.h	/^void push(Stack* stack, int data)$/;"	f
+push	Stacks_and_Queues/evaluate_expression.c	/^ void push(stack* new_stack, int op){$/;"	f
+removeDuplicates	Two_Pointers/remove_duplicate_sorted_array.c	/^int removeDuplicates(int* A, int n1) {$/;"	f
+removeDuplicates	Two_Pointers/remove_duplicate_sorted_array_II.c	/^int removeDuplicates(int* A, int n1) {$/;"	f
+removeNthFromEnd	Linked_List/remove_nth_element_from_end.c	/^listnode* removeNthFromEnd(listnode* A, int B) {$/;"	f
 remove_preceeding_spaces	Strings/last_word_string.py	/^        def remove_preceeding_spaces(s):$/;"	f	function:lengthOfLastWord
 remove_trailing_spaces	Strings/last_word_string.py	/^        def remove_trailing_spaces(s):$/;"	f	function:lengthOfLastWord
+reorderList	Linked_List/reorder_LL.c	/^listnode* reorderList(listnode* A) {$/;"	f
 repeat_chars_freq	Arrays/sorted_permutation_rank_string.py	/^    def repeat_chars_freq(i,A):$/;"	f	function:findrank
 repeated_Number	Arrays/n_by_3_repeat.py	/^def repeated_Number(A):$/;"	f
 repeated_number	Arrays/duplicate.py	/^def repeated_number(A):$/;"	f
@@ -129,17 +208,22 @@ repeated_number	Arrays/repeat_missing_number.py	/^def repeated_number(number_arr
 repeated_number_alternative	Arrays/repeat_missing_number.py	/^def repeated_number_alternative(number_array):$/;"	f
 reverse	Math/reverse_integer.py	/^def reverse(A):$/;"	f
 reverse_cols	Arrays/rotate_90.py	/^    def reverse_cols(A):$/;"	f	function:rotate_90_clock
+reverselist	Linked_List/reorder_LL.c	/^void reverselist(listnode* head){$/;"	f
 romanToInt	Strings/roman_to_integer.py	/^    def romanToInt(self, A):$/;"	m	class:Solution
 rooms_occupied	Arrays/hotel_booking.py	/^    def rooms_occupied(arrive,depart,i):$/;"	f	function:hotel
 rotate_90_clock	Arrays/rotate_90.py	/^def rotate_90_clock(A):    $/;"	f
 sample_input	Arrays/repeat_missing_number.py	/^sample_input = [3,1,2,3,5]$/;"	v
 search	Binary_Search/rotated_unsorted_binary_search.c	/^int search(const int* A, int n1, int B) {$/;"	f
+searchInsert	Binary_Search/search_insert.c	/^int searchInsert(int* A, int n1, int B) {$/;"	f
 searchMatrix	Binary_Search/searchMatrix.c	/^int searchMatrix(int** A, int n11, int n12, int B) {$/;"	f
+searchRange	Binary_Search/search_range.c	/^int* searchRange(const int* A, int n1, int B, int *len1) {$/;"	f
 setZeroes	Arrays/set_matrix_zeros.py	/^def setZeroes(A):$/;"	f
 set_column	Arrays/set_matrix_zeros.py	/^    def set_column(i,j):$/;"	f	function:setZeroes
 set_row	Arrays/set_matrix_zeros.py	/^    def set_row(i,j):$/;"	f	function:setZeroes
 sieve_of_erastothenes	Math/list_of_primes.py	/^def sieve_of_erastothenes(A):$/;"	f
 sieve_of_erastothenes	Math/sum_of_primes.py	/^    def sieve_of_erastothenes(A):$/;"	f	function:find_prime_pair
+simplifyPath	Stacks_and_Queues/simplify_directory.c	/^char* simplifyPath(char* A) {$/;"	f
+simplifyPath	Stacks_and_Queues/simplify_directory_interviewbit_solution.c	/^char* simplifyPath(char* A) {$/;"	f
 solve	Arrays/triplets_with_sum_1_2.py	/^def solve(A):$/;"	f
 solve	Two_Pointers/minimize_absolute_difference.c	/^int solve(int* A, int n1, int* B, int n2, int* C, int n3) {$/;"	f
 spiral	Arrays/spiral_order_print_2.py	/^def spiral(matrix, level):$/;"	f
@@ -147,10 +231,20 @@ spiral_order_print	Arrays/spiral_order_print.py	/^def spiral_order_print(A):$/;"
 sqrt	Binary_Search/square_root_integer.py	/^def sqrt(A):$/;"	f
 square_list	Arrays/repeat_missing_number.py	/^def square_list(A):$/;"	f
 square_root_int	Binary_Search/square_root_integer.c	/^int square_root_int(int A){$/;"	f
+stack	Stacks_and_Queues/evaluate_expression.c	/^ }stack;$/;"	t	typeref:struct:Stack	file:
+stack_node	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^typedef struct stack_node$/;"	s
+stack_node	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^}stack_node; $/;"	t	typeref:struct:stack_node
+strStr	Strings/strStr.c	/^int strStr(const char* A, const char* B) {$/;"	f
+sub_digit	Strings/integer_to_roman.c	/^int sub_digit(char num_1, char num_2, int i, char* c){$/;"	f
 sub_unsort	Arrays/sub_unsort.py	/^def sub_unsort(A):$/;"	f
 sub_unsort_alter	Arrays/sub_unsort.py	/^def sub_unsort_alter(A):$/;"	f
+top	Stacks_and_Queues/Stack_Tests/stack_array.h	/^	int top;$/;"	m	struct:Stack_t
+top	Stacks_and_Queues/evaluate_expression.c	/^     int top;$/;"	m	struct:Stack	file:
 trail_zeros	Math/trailing_zeros.py	/^def trail_zeros(A):$/;"	f
 transpose	Arrays/rotate_90.py	/^    def transpose(A):$/;"	f	function:rotate_90_clock
+upper_bound	Binary_Search/find_matrix_median.c	/^int upper_bound(int** A, int i, int low, int high, int B){$/;"	f
+val	Linked_List/partition_LL.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	Linked_List/reorder_LL.c	/^     int val;$/;"	m	struct:ListNode	file:
 valid_char	Strings/palindrome_string.py	/^def valid_char(ch):$/;"	f
 value	Strings/roman_to_integer.py	/^def value(r):$/;"	f
 wave	Arrays/wave_sort.py	/^def wave(A):$/;"	f
