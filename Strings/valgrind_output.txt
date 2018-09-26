@@ -1,0 +1,77 @@
+==8312== Memcheck, a memory error detector
+==8312== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==8312== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==8312== Command: ./multiply_strings
+==8312== 
+==8312== Invalid write of size 4
+==8312==    at 0x400675: multiply (multiply_strings.c:41)
+==8312==    by 0x4008D0: main (multiply_strings.c:91)
+==8312==  Address 0x5204068 is 0 bytes after a block of size 40 alloc'd
+==8312==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==8312==    by 0x40064F: multiply (multiply_strings.c:38)
+==8312==    by 0x4008D0: main (multiply_strings.c:91)
+==8312== 
+==8312== Conditional jump or move depends on uninitialised value(s)
+==8312==    at 0x400790: multiply (multiply_strings.c:63)
+==8312==    by 0x4008D0: main (multiply_strings.c:91)
+==8312== 
+==8312== Conditional jump or move depends on uninitialised value(s)
+==8312==    at 0x40081A: multiply (multiply_strings.c:70)
+==8312==    by 0x4008D0: main (multiply_strings.c:91)
+==8312== 
+==8312== Conditional jump or move depends on uninitialised value(s)
+==8312==    at 0x4E88CC0: vfprintf (vfprintf.c:1632)
+==8312==    by 0x4E8F898: printf (printf.c:33)
+==8312==    by 0x4008ED: main (multiply_strings.c:91)
+==8312== 
+==8312== Conditional jump or move depends on uninitialised value(s)
+==8312==    at 0x4EB32F5: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1301)
+==8312==    by 0x4E8850A: vfprintf (vfprintf.c:1632)
+==8312==    by 0x4E8F898: printf (printf.c:33)
+==8312==    by 0x4008ED: main (multiply_strings.c:91)
+==8312== 
+==8312== Conditional jump or move depends on uninitialised value(s)
+==8312==    at 0x4EB3307: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1301)
+==8312==    by 0x4E8850A: vfprintf (vfprintf.c:1632)
+==8312==    by 0x4E8F898: printf (printf.c:33)
+==8312==    by 0x4008ED: main (multiply_strings.c:91)
+==8312== 
+==8312== Syscall param write(buf) points to uninitialised byte(s)
+==8312==    at 0x4F312C0: __write_nocancel (syscall-template.S:84)
+==8312==    by 0x4EB2BFE: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1263)
+==8312==    by 0x4EB4408: new_do_write (fileops.c:518)
+==8312==    by 0x4EB4408: _IO_do_write@@GLIBC_2.2.5 (fileops.c:494)
+==8312==    by 0x4EB347C: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+==8312==    by 0x4E8792C: vfprintf (vfprintf.c:1663)
+==8312==    by 0x4E8F898: printf (printf.c:33)
+==8312==    by 0x4008ED: main (multiply_strings.c:91)
+==8312==  Address 0x5204120 is 32 bytes inside a block of size 1,024 alloc'd
+==8312==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==8312==    by 0x4EA71D4: _IO_file_doallocate (filedoalloc.c:127)
+==8312==    by 0x4EB5593: _IO_doallocbuf (genops.c:398)
+==8312==    by 0x4EB48F7: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+==8312==    by 0x4EB328C: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+==8312==    by 0x4E87240: vfprintf (vfprintf.c:1320)
+==8312==    by 0x4E8F898: printf (printf.c:33)
+==8312==    by 0x4008ED: main (multiply_strings.c:91)
+==8312== 
+==8312== 
+==8312== HEAP SUMMARY:
+==8312==     in use at exit: 11 bytes in 1 blocks
+==8312==   total heap usage: 3 allocs, 2 frees, 1,075 bytes allocated
+==8312== 
+==8312== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==8312==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==8312==    by 0x400837: multiply (multiply_strings.c:74)
+==8312==    by 0x4008D0: main (multiply_strings.c:91)
+==8312== 
+==8312== LEAK SUMMARY:
+==8312==    definitely lost: 11 bytes in 1 blocks
+==8312==    indirectly lost: 0 bytes in 0 blocks
+==8312==      possibly lost: 0 bytes in 0 blocks
+==8312==    still reachable: 0 bytes in 0 blocks
+==8312==         suppressed: 0 bytes in 0 blocks
+==8312== 
+==8312== For counts of detected and suppressed errors, rerun with: -v
+==8312== Use --track-origins=yes to see where uninitialised values come from
+==8312== ERROR SUMMARY: 29 errors from 8 contexts (suppressed: 0 from 0)
