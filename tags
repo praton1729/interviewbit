@@ -56,6 +56,7 @@ __init__	Arrays/merged_overlapping_intervals.py	/^    def __init__(self,s=0,e=0)
 a	Strings/roman_to_integer.py	/^a = Solution()$/;"	v
 a	Strings/valid_number.py	/^a = Solution()$/;"	v
 a	Strings/zig_zag_pattern.py	/^a = Solution()$/;"	v
+append_in_matrix	Two_Pointers/3sum_zero.c	/^void append_in_matrix(int** matrix, int row_index, int x, int y, int z){$/;"	f
 arrange	Arrays/rearrange_array.py	/^def arrange(A):$/;"	f
 array	Stacks_and_Queues/Stack_Tests/stack_array.h	/^	int* array;$/;"	m	struct:Stack_t
 array	Stacks_and_Queues/evaluate_expression.c	/^     int* array;$/;"	m	struct:Stack	file:
@@ -69,6 +70,8 @@ capacity	Stacks_and_Queues/Stack_Tests/stack_array.h	/^	unsigned capacity;$/;"	m
 chars_less_than	Arrays/sorted_permutation_rank_string.py	/^    def chars_less_than(i,A):$/;"	f	function:findrank
 col2num	Math/excel_column_to_number.py	/^def col2num(A):$/;"	f
 comparator	Two_Pointers/merge_sorted_lists.c	/^int comparator(const void *p, const void *q)  $/;"	f
+compare	Two_Pointers/3sum.c	/^int compare(const void* a, const void* b){$/;"	f
+compare	Two_Pointers/3sum_zero.c	/^int compare(const void* a, const void* b){$/;"	f
 compare	Two_Pointers/count_triangles.c	/^ int compare(const void* a, const void* b){$/;"	f
 compareVersion	Strings/compare_version.c	/^int compareVersion(char* A, char* B) {$/;"	f
 concat	Strings/count_and_say.c	/^char* concat(char* x, char* y)$/;"	f
@@ -149,7 +152,10 @@ main	Strings/compare_version.c	/^int main(int argc, char* argv)$/;"	f
 main	Strings/count_and_say.c	/^int main(int argc, char* argv[])$/;"	f
 main	Strings/integer_to_roman.c	/^int main(int argc, char* argv)$/;"	f
 main	Strings/longest_common_prefix.c	/^int main(){$/;"	f
+main	Strings/multiply_strings.c	/^int main(int argc, char* argv)$/;"	f
 main	Strings/pretty_json.c	/^int main(){$/;"	f
+main	Two_Pointers/3sum.c	/^int main(int argc, char* argv)$/;"	f
+main	Two_Pointers/3sum_zero.c	/^int main(int argc, char* argv)$/;"	f
 main	Two_Pointers/count_triangles.c	/^int main(int argc, char* argv)$/;"	f
 main	Two_Pointers/merge_sorted_lists.c	/^int main(int argc, char* argv)$/;"	f
 main	Two_Pointers/remove_duplicate_sorted_array.c	/^int main(int argc, char* argv)$/;"	f
@@ -167,6 +173,7 @@ merge	Two_Pointers/merge_sorted_lists.c	/^int* merge(int* A, int n1, int* B, int
 min	Two_Pointers/diffPossible.c	9;"	d	file:
 min	Two_Pointers/minimize_absolute_difference.c	13;"	d	file:
 minimum	Two_Pointers/minimize_absolute_difference.c	/^  int minimum(int x, int y, int z)$/;"	f
+multiply	Strings/multiply_strings.c	/^char* multiply(char* A, char* B) {$/;"	f
 my_ceil	Binary_Search/search_range.c	/^int my_ceil(const int* A, int low, int high, int B){$/;"	f
 my_cmp	Arrays/largest_number_array.py	/^    def my_cmp(a,b):$/;"	f	function:largest_number
 my_floor	Binary_Search/search_range.c	/^int my_floor(const int* A, int low, int high, int B){$/;"	f
@@ -238,6 +245,8 @@ strStr	Strings/strStr.c	/^int strStr(const char* A, const char* B) {$/;"	f
 sub_digit	Strings/integer_to_roman.c	/^int sub_digit(char num_1, char num_2, int i, char* c){$/;"	f
 sub_unsort	Arrays/sub_unsort.py	/^def sub_unsort(A):$/;"	f
 sub_unsort_alter	Arrays/sub_unsort.py	/^def sub_unsort_alter(A):$/;"	f
+threeSum	Two_Pointers/3sum_zero.c	/^int ** threeSum(int* A, int n1, int *len1, int *len2) {$/;"	f
+threeSumClosest	Two_Pointers/3sum.c	/^int threeSumClosest(int* A, int n1, int B) {$/;"	f
 top	Stacks_and_Queues/Stack_Tests/stack_array.h	/^	int top;$/;"	m	struct:Stack_t
 top	Stacks_and_Queues/evaluate_expression.c	/^     int top;$/;"	m	struct:Stack	file:
 trail_zeros	Math/trailing_zeros.py	/^def trail_zeros(A):$/;"	f
