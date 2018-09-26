@@ -1,7 +1,7 @@
 
 default:all
 
-all:atoi longest_common_prefix count_and_say pretty_json integer_to_roman
+all:atoi longest_common_prefix count_and_say pretty_json integer_to_roman multiply_strings
 
 atoi:atoi.c
 	gcc atoi.c -o atoi
@@ -18,5 +18,8 @@ pretty_json: pretty_json.c
 integer_to_roman: integer_to_roman.c
 	gcc integer_to_roman.c -o integer_to_roman
 
+multiply_strings: multiply_strings.c
+	gcc -g multiply_strings.c -o multiply_strings
+
 clean:
-	rm atoi longest_common_prefix count_and_say pretty_json integer_to_roman
+	rm atoi longest_common_prefix count_and_say pretty_json integer_to_roman multiply_strings

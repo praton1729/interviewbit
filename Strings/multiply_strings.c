@@ -39,7 +39,8 @@ char* multiply(char* A, char* B) {
 		int* result = (int*) malloc(sizeof(int)*(n_A+n_B));
 
 		int i,j;
-		for(j=0;j<n_A+n_B;result[j]=0,j++);
+		for(j=0;j<n_A+n_B;result[j]=0,j++); // The order of j++ and result[j] is important since it lead
+											// to an invalid write in unallocated memory location.
 
 		int i_A=0;
 		int i_B=0;
