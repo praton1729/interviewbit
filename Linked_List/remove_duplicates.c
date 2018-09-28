@@ -3,7 +3,8 @@
 
 * File Name : remove_duplicates.c
 
-* Purpose :
+* Purpose 	: Remove duplicates from a sorted
+			  linked lists in place.
 
 * Creation Date : 28-09-2018
 
