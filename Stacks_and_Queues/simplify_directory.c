@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include "stack.h"
+//#include "stack.h"
 
 /**
  * @input A : String termination by '\0'

@@ -20,8 +20,6 @@
 #include<limits.h>
 #include<math.h>
 
-
-
 //Definition for singly-linked list.
 
 struct ListNode {

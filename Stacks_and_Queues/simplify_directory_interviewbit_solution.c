@@ -43,9 +43,7 @@ char* simplifyPath(char* A) {
 
 int main(){
 
-char path[100];
-
-scanf("%s",path);
+char* path = "/home/../home/";
 
 printf("%s\n",simplifyPath(path));
 
