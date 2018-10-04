@@ -1,0 +1,12 @@
+CC = gcc
+CC_FLAGS= -g
+
+SOURCES = (wildcard *.c)
+EXECS = (SOURCES:.c=)
+
+%: %.c
+	
+	$(CC) $(CC_FLAGS) -c $< -o $@
+
+clean:
+	rm $(EXECS)

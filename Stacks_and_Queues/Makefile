@@ -1,11 +1,17 @@
 
-default:all
+SOURCES = $(wildcard *.c)
+EXECS = $(SOURCES:.c=)
 
-all: evaluate_expression
+CC = gcc
 
-evaluate_expression:evaluate_expression.c
+CC_FLAGS = -g
 
-	gcc evaluate_expression.c -o evaluate_expression
+default = all
+
+all:$(EXECS)
+
+%: %.c
+	$(CC) $(CC_FLAGS) -c $< -o $@
 
 clean:
-	rm evaluate_expression
+	rm $(EXECS)
