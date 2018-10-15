@@ -6,7 +6,7 @@ CC = gcc
 
 CC_FLAGS = -g
 
-default = all
+default: all
 
 all:$(EXECS)
 
