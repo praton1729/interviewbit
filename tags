@@ -4,6 +4,9 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+3sum.c	Two_Pointers/3sum.c	1;"	F
+3sum_zero.c	Two_Pointers/3sum_zero.c	1;"	F
+3sum_zero_interviewbit_solution.c	Two_Pointers/3sum_zero_interviewbit_solution.c	1;"	F
 A	Arrays/K_Pascal.py	/^A = 3$/;"	v
 A	Arrays/Pascal.py	/^A = 1$/;"	v
 A	Arrays/add_one_number.py	/^A =[ 0, 3, 7, 6, 4, 0, 5, 5, 5 ] $/;"	v
@@ -27,6 +30,7 @@ A	Arrays/spiral_order_print_2.py	/^A = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]$/;"	v
 A	Arrays/sub_unsort.py	/^A = [ 4, 15, 4, 4, 15, 18, 20 ]$/;"	v
 A	Arrays/triplets_with_sum_1_2.py	/^A = [ "2.671613", "1.239175", "2.575260", "0.021242", "1.894100", "0.148016", "0.341571" ]$/;"	v
 A	Arrays/wave_sort.py	/^A = [1,2,3,4]$/;"	v
+A	Backtracking/Other_forms/Python_forms/combination_sum.py	/^A = [2,3,6,7]$/;"	v
 A	Bit_Manipulation/different_bits_sum_pairwise.py	/^A = [1,3,5]$/;"	v
 A	Bit_Manipulation/find_min_xor.py	/^A = [0,2,5,7]$/;"	v
 A	Math/list_of_primes.py	/^A = 74$/;"	v
@@ -35,118 +39,331 @@ A	Math/sum_of_primes.py	/^A = 16777214$/;"	v
 A	Strings/last_word_string.py	/^A = "   "$/;"	v
 A	Strings/palindrome_string.py	/^A = "race a car"$/;"	v
 A	Strings/valid_number.py	/^A = " 0.1"$/;"	v
+Array_3_pointers.c	Two_Pointers/Array_3_pointers.c	1;"	F
 B	Arrays/find_Perm.py	/^B = 6$/;"	v
 B	Arrays/spiral_order_print_2.py	/^B = []$/;"	v
+CC	Backtracking/Makefile	/^CC = gcc$/;"	m
+CC	Hashing/Makefile	/^CC = gcc$/;"	m
+CC	Stacks_and_Queues/Makefile	/^CC = gcc$/;"	m
+CC_FLAGS	Backtracking/Makefile	/^CC_FLAGS = -g$/;"	m
+CC_FLAGS	Hashing/Makefile	/^CC_FLAGS = -g$/;"	m
+CC_FLAGS	Stacks_and_Queues/Makefile	/^CC_FLAGS = -g$/;"	m
 Create_Stack	Stacks_and_Queues/Stack_Tests/stack_array.h	/^Stack* Create_Stack(unsigned create_capacity){$/;"	f
 ERROR	Strings/atoi.c	13;"	d	file:
+EXECS	Backtracking/Makefile	/^EXECS = $(SOURCES:.c=)$/;"	m
+EXECS	Hashing/Makefile	/^EXECS = $(SOURCES:.c=)$/;"	m
+EXECS	Heaps_and_Maps/Makefile	/^EXECS = $(SOURCES:.md=.pdf)$/;"	m
+EXECS	Stacks_and_Queues/Makefile	/^EXECS = $(SOURCES:.c=)$/;"	m
 Interval	Arrays/merged_overlapping_intervals.py	/^class Interval:$/;"	c
 K	Arrays/hotel_booking.py	/^K = 1$/;"	v
+K_Pascal.py	Arrays/K_Pascal.py	1;"	F
 LCP_two_strings	Strings/longest_common_prefix.c	/^char* LCP_two_strings(char* x, char* y)$/;"	f
+ListNode	Linked_List/add_linked_lists.c	/^struct ListNode {$/;"	s	file:
+ListNode	Linked_List/insertion_sort_LL.c	/^struct ListNode {$/;"	s	file:
+ListNode	Linked_List/merge_sorted_lists.c	/^struct ListNode {$/;"	s	file:
 ListNode	Linked_List/partition_LL.c	/^struct ListNode {$/;"	s	file:
+ListNode	Linked_List/remove_duplicates.c	/^struct ListNode {$/;"	s	file:
+ListNode	Linked_List/remove_duplicates_II.c	/^struct ListNode {$/;"	s	file:
 ListNode	Linked_List/reorder_LL.c	/^ struct ListNode {$/;"	s	file:
+ListNode	Linked_List/reverse_between_given_indices.c	/^struct ListNode {$/;"	s	file:
+ListNode	Linked_List/rotate_list_clockwise.c	/^struct ListNode {$/;"	s	file:
+ListNode	Linked_List/sort_LL_interviewbit_solution.c	/^struct ListNode {$/;"	s	file:
+Lower_diag_is_clear	Backtracking/N_queens.c	/^int Lower_diag_is_clear(int** board,int N, int row, int col)$/;"	f
+MAX	Heaps_and_Maps/n_max_heaps_wrong_solution_geeks_for_geeks.cpp	1;"	d	file:
+MAXN	Heaps_and_Maps/n_max_heaps_wrong_solution_interviewbit.cpp	1;"	d	file:
+MAX_CHARS	Hashing/longest_substring_without_repeat.c	29;"	d	file:
+MAX_SIZE	Stacks_and_Queues/valid_parentheses.c	28;"	d	file:
+MOD	Heaps_and_Maps/n_max_heaps_wrong_solution_geeks_for_geeks.cpp	2;"	d	file:
+MOD	Heaps_and_Maps/n_max_heaps_wrong_solution_interviewbit.cpp	/^long long int MOD = 1000000007;$/;"	v
+Makefile	Backtracking/Makefile	1;"	F
+Makefile	Hashing/Makefile	1;"	F
+Makefile	Heaps_and_Maps/Makefile	1;"	F
+Makefile	Stacks_and_Queues/Makefile	1;"	F
+Makefile	Stacks_and_Queues/Stack_Tests/Makefile	1;"	F
+Makefile	Strings/Makefile	1;"	F
+Makefile	Two_Pointers/Makefile	1;"	F
+N_queens.c	Backtracking/N_queens.c	1;"	F
+N_queens_all_solutions_interviewbit.c	Backtracking/N_queens_all_solutions_interviewbit.c	1;"	F
+Pascal.py	Arrays/Pascal.py	1;"	F
+Place_queen	Backtracking/N_queens.c	/^void Place_queen(int** board, int row, int col)$/;"	f
 PrettyPrint	Arrays/Prettyprint_2.py	/^def PrettyPrint(A):$/;"	f
+Prettyprint_2.py	Arrays/Prettyprint_2.py	1;"	F
+Remove_queen	Backtracking/N_queens.c	/^void Remove_queen(int** board, int row, int col)$/;"	f
+Row_is_clear	Backtracking/N_queens.c	/^int Row_is_clear(int** board, int row, int col)$/;"	f
 S	Arrays/flip.py	/^S = "1101"$/;"	v
+SOURCES	Backtracking/Makefile	/^SOURCES = $(wildcard *.c)$/;"	m
+SOURCES	Hashing/Makefile	/^SOURCES = $(wildcard *.c)$/;"	m
+SOURCES	Heaps_and_Maps/Makefile	/^SOURCES = $(wildcard *.md)$/;"	m
+SOURCES	Stacks_and_Queues/Makefile	/^SOURCES = $(wildcard *.c)$/;"	m
+Solution	Backtracking/Other_forms/Python_forms/combination_sum.py	/^class Solution:$/;"	c
+Solution	Backtracking/Other_forms/Python_forms/combinations.py	/^class Solution:$/;"	c
+Solution	Backtracking/Other_forms/Python_forms/permutations.py	/^class Solution:$/;"	c
+Solution	Hashing/anagrams.py	/^class Solution:$/;"	c
+Solution	Hashing/colourful_number.py	/^class Solution:$/;"	c
+Solution	Hashing/fraction.py	/^class Solution:$/;"	c
+Solution	Hashing/substring_concatenation.py	/^class Solution:$/;"	c
 Solution	Strings/roman_to_integer.py	/^class Solution:$/;"	c
 Solution	Strings/valid_number.py	/^class Solution:$/;"	c
 Solution	Strings/zig_zag_pattern.py	/^class Solution:$/;"	c
+Solve	Backtracking/N_queens_all_solutions_interviewbit.c	/^void Solve(int row)$/;"	f
+Solve1	Backtracking/N_queens_all_solutions_interviewbit.c	/^void Solve1(int row,int c)$/;"	f
 Stack	Stacks_and_Queues/Stack_Tests/stack_array.h	/^}Stack;$/;"	t	typeref:struct:Stack_t
 Stack	Stacks_and_Queues/evaluate_expression.c	/^ typedef struct Stack $/;"	s	file:
 Stack_t	Stacks_and_Queues/Stack_Tests/stack_array.h	/^typedef struct Stack_t$/;"	s
+T	Backtracking/Other_forms/Python_forms/combination_sum.py	/^T = 7$/;"	v
+TreeNode	Trees/valid_BST.c	/^struct TreeNode {$/;"	s	file:
+Upper_diag_is_clear	Backtracking/N_queens.c	/^int Upper_diag_is_clear(int** board, int N,int row, int col)$/;"	f
 __init__	Arrays/merged_overlapping_intervals.py	/^    def __init__(self,s=0,e=0):$/;"	m	class:Interval
 a	Strings/roman_to_integer.py	/^a = Solution()$/;"	v
 a	Strings/valid_number.py	/^a = Solution()$/;"	v
 a	Strings/zig_zag_pattern.py	/^a = Solution()$/;"	v
+addTwoNumbers	Linked_List/add_linked_lists.c	/^listnode* addTwoNumbers(listnode* A, listnode* B) {$/;"	f
+add_linked_lists.c	Linked_List/add_linked_lists.c	1;"	F
+add_one_number.py	Arrays/add_one_number.py	1;"	F
+anagrams	Hashing/anagrams.py	/^    def anagrams(self, A):$/;"	m	class:Solution
+anagrams.py	Hashing/anagrams.py	1;"	F
+anti_diagonal.py	Arrays/anti_diagonal.py	1;"	F
 append_in_matrix	Two_Pointers/3sum_zero.c	/^void append_in_matrix(int** matrix, int row_index, int x, int y, int z){$/;"	f
+arr	Backtracking/N_queens_all_solutions_interviewbit.c	/^char **arr;$/;"	v
 arrange	Arrays/rearrange_array.py	/^def arrange(A):$/;"	f
 array	Stacks_and_Queues/Stack_Tests/stack_array.h	/^	int* array;$/;"	m	struct:Stack_t
 array	Stacks_and_Queues/evaluate_expression.c	/^     int* array;$/;"	m	struct:Stack	file:
 arrive	Arrays/hotel_booking.py	/^arrive = [40,18]$/;"	v
+atoi.c	Strings/atoi.c	1;"	F
 atoi_custom	Strings/atoi.c	/^int atoi_custom(const char* A) {$/;"	f
 binary	Binary_Search/search_range.c	/^int binary(const int *A,int n1,int B,int key)$/;"	f
 binarySearch	Binary_Search/rotated_unsorted_binary_search.c	/^int binarySearch(int* arr, int low,int high, int key)$/;"	f
+binary_rotated_array_search.c	Binary_Search/binary_rotated_array_search.c	1;"	F
 binary_rotation_index	Binary_Search/binary_rotated_array_search.c	/^int binary_rotation_index(const int* A, int n1){$/;"	f
+braces	Stacks_and_Queues/redundant_braces.c	/^int braces(char* A) {$/;"	f
+bulbs	Greedy_Algorithm/light_bulbs.c	/^int bulbs(int* A, int n1) {$/;"	f
+canCompleteCircuit	Greedy_Algorithm/gas_station.c	/^int canCompleteCircuit(const int* A, int n1, const int* B, int n2) {$/;"	f
+candy	Greedy_Algorithm/candy_distribution.c	/^int candy(int* A, int n1) {$/;"	f
+candy_distribution.c	Greedy_Algorithm/candy_distribution.c	1;"	F
 cap	Stacks_and_Queues/evaluate_expression.c	/^     unsigned cap;$/;"	m	struct:Stack	file:
 capacity	Stacks_and_Queues/Stack_Tests/stack_array.h	/^	unsigned capacity;$/;"	m	struct:Stack_t
 chars_less_than	Arrays/sorted_permutation_rank_string.py	/^    def chars_less_than(i,A):$/;"	f	function:findrank
+check_anagram	Hashing/anagrams.py	/^        def check_anagram(x,y):$/;"	f	function:Solution.anagrams
+choose	Heaps_and_Maps/n_max_heaps_wrong_solution_geeks_for_geeks.cpp	/^int choose(int n, int k){$/;"	f
+choose	Heaps_and_Maps/n_max_heaps_wrong_solution_interviewbit.cpp	/^long long int choose(int n,int k)$/;"	f
+clear_matrix	Backtracking/N_queens.c	/^void clear_matrix(int** A,int rows,int cols)$/;"	f
+col	Backtracking/N_queens_all_solutions_interviewbit.c	/^char *col;$/;"	v
 col2num	Math/excel_column_to_number.py	/^def col2num(A):$/;"	f
+colorful	Hashing/colourful_number.py	/^    def colorful(self, A):$/;"	m	class:Solution
+colourful_number.py	Hashing/colourful_number.py	1;"	F
+combination	Backtracking/combinations.c	/^int combination(int A, int B){$/;"	f
+combinationSum	Backtracking/Other_forms/Python_forms/combination_sum.py	/^    def combinationSum(self, A, B):$/;"	m	class:Solution
+combination_sum	Backtracking/Other_forms/Python_forms/combination_sum.py	/^def combination_sum(A,T):$/;"	f
+combination_sum.py	Backtracking/Other_forms/Python_forms/combination_sum.py	1;"	F
+combination_util	Backtracking/Other_forms/Python_forms/combinations.py	/^        def combination_util(array, start,end, index):$/;"	f	function:Solution.combine
+combination_util	Backtracking/combinations.c	/^void combination_util(int* sample, int start, int end, int index,int* temp, int** result,int r){$/;"	f
+combinations.c	Backtracking/combinations.c	1;"	F
+combinations.py	Backtracking/Other_forms/Python_forms/combinations.py	1;"	F
+combine	Backtracking/Other_forms/Python_forms/combinations.py	/^    def combine(self, A, B):$/;"	m	class:Solution
+combine	Backtracking/combinations.c	/^int** combine(int A, int B, int *len1, int *len2) {$/;"	f
 comparator	Two_Pointers/merge_sorted_lists.c	/^int comparator(const void *p, const void *q)  $/;"	f
+compare	Backtracking/subset.c	/^int compare(const void* a, const void* b){$/;"	f
+compare	Greedy_Algorithm/highest_product.c	/^int compare(const void* a, const void* b){$/;"	f
+compare	Greedy_Algorithm/mice_and_holes.c	/^int compare(const void* a, const void* b){$/;"	f
+compare	Heaps_and_Maps/magician_chocolates.c	/^int compare(const void* a, const void* b){$/;"	f
 compare	Two_Pointers/3sum.c	/^int compare(const void* a, const void* b){$/;"	f
 compare	Two_Pointers/3sum_zero.c	/^int compare(const void* a, const void* b){$/;"	f
+compare	Two_Pointers/3sum_zero_interviewbit_solution.c	/^int compare (const void * a, const void * b)$/;"	f
 compare	Two_Pointers/count_triangles.c	/^ int compare(const void* a, const void* b){$/;"	f
 compareVersion	Strings/compare_version.c	/^int compareVersion(char* A, char* B) {$/;"	f
+compare_lists	Linked_List/palindrome_linked_list.c	/^int compare_lists(listnode* head_1, listnode* head_2){$/;"	f
+compare_version.c	Strings/compare_version.c	1;"	F
 concat	Strings/count_and_say.c	/^char* concat(char* x, char* y)$/;"	f
 convert	Strings/zig_zag_pattern.py	/^    def convert(self, A, B):$/;"	m	class:Solution
+count	Backtracking/N_queens_all_solutions_interviewbit.c	/^int count =0;$/;"	v
+count	Backtracking/permutations.c	/^int count = 0;$/;"	v
+count1	Backtracking/N_queens_all_solutions_interviewbit.c	/^int count1 =0;$/;"	v
 count_and_say	Strings/count_and_say.c	/^char* count_and_say(int A)$/;"	f
+count_and_say.c	Strings/count_and_say.c	1;"	F
 count_ones	Arrays/flip.py	/^    def count_ones(A,i,j):$/;"	f	function:flip
+count_triangles.c	Two_Pointers/count_triangles.c	1;"	F
 cpFact	Math/largest_coprime_divisor.py	/^def cpFact(A, B):$/;"	f
 create_stack	Stacks_and_Queues/evaluate_expression.c	/^ stack* create_stack(unsigned cap){$/;"	f
 data	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^	int data;$/;"	m	struct:stack_node
+deleteDuplicates	Linked_List/remove_duplicates.c	/^listnode* deleteDuplicates(listnode* A) {$/;"	f
+deleteDuplicates	Linked_List/remove_duplicates_II.c	/^listnode* deleteDuplicates(listnode* A) {$/;"	f
 depart	Arrays/hotel_booking.py	/^depart = [40,43]$/;"	v
 detectCycle	Linked_List/list_cycle.c	/^listnode* detectCycle(listnode* A) {$/;"	f
+diag1	Backtracking/N_queens_all_solutions_interviewbit.c	/^char *diag1;$/;"	v
+diag2	Backtracking/N_queens_all_solutions_interviewbit.c	/^char *diag2;$/;"	v
 diagonal	Arrays/anti_diagonal.py	/^def diagonal(A):$/;"	f
 diffPossible	Two_Pointers/diffPossible.c	/^int diffPossible(int* A, int n1, int B) $/;"	f
+diffPossible.c	Two_Pointers/diffPossible.c	1;"	F
 diff_bits_pair	Bit_Manipulation/different_bits_sum_pairwise.py	/^    def diff_bits_pair(x,y):$/;"	f	function:diff_bits_sum
 diff_bits_sum	Bit_Manipulation/different_bits_sum_pairwise.py	/^def diff_bits_sum(A):$/;"	f
 diff_bits_sum_alter	Bit_Manipulation/different_bits_sum_pairwise.py	/^def diff_bits_sum_alter(A):$/;"	f
 diff_func	Arrays/max_difference.py	/^    def diff_func(A,i,j):$/;"	f	function:maxArr
+different_bits_sum_pairwise.py	Bit_Manipulation/different_bits_sum_pairwise.py	1;"	F
 digit	Strings/integer_to_roman.c	/^int digit(char num,int n, int i, char* c){$/;"	f
 divide	Bit_Manipulation/divide_integers.py	/^def divide(x,y):$/;"	f
+divide_integers.py	Bit_Manipulation/divide_integers.py	1;"	F
+dp	Heaps_and_Maps/n_max_heaps_wrong_solution_geeks_for_geeks.cpp	/^int dp[MAX];$/;"	v
+dp	Heaps_and_Maps/n_max_heaps_wrong_solution_interviewbit.cpp	/^long long int dp[MAXN];  	\/* dp[i] = number of max heaps for i distinct integers *\/$/;"	v
+duplicate.py	Arrays/duplicate.py	1;"	F
 evalRPN	Stacks_and_Queues/evaluate_expression.c	/^int evalRPN(char** A, int n1) {$/;"	f
+evaluate_expression.c	Stacks_and_Queues/evaluate_expression.c	1;"	F
+excel_column_to_number.py	Math/excel_column_to_number.py	1;"	F
 fac	Arrays/sorted_permutation_rank_string.py	/^    def fac(n):$/;"	f	function:findrank
+fact	Backtracking/permutations.c	/^int fact(int n){$/;"	f
+fill_result_with_combinations	Backtracking/letter_phone.c	/^void fill_result_with_combinations(char* A, int n, char** result, int* len, int index,char* temp, char** map)$/;"	f
 findMedian	Binary_Search/find_matrix_median.c	/^int findMedian(int A[][], int n11, int n12) {$/;"	f
 findMin	Binary_Search/binary_rotated_array_search.c	/^int findMin(const int* A, int n1) {$/;"	f
+findSubstring	Hashing/substring_concatenation.py	/^    def findSubstring(self, A, B):$/;"	m	class:Solution
 find_Perm	Arrays/find_Perm.py	/^def find_Perm(A,B):$/;"	f
+find_Perm.py	Arrays/find_Perm.py	1;"	F
+find_matrix_median.c	Binary_Search/find_matrix_median.c	1;"	F
 find_min_xor	Bit_Manipulation/find_min_xor.py	/^def find_min_xor(A):$/;"	f
+find_min_xor.py	Bit_Manipulation/find_min_xor.py	1;"	F
 find_pivot	Binary_Search/rotated_unsorted_binary_search.c	/^int find_pivot(int* A, int low, int high){$/;"	f
 find_prime_pair	Math/list_of_primes.py	/^def find_prime_pair(A,isPrime):$/;"	f
 find_prime_pair	Math/sum_of_primes.py	/^def find_prime_pair(A):$/;"	f
+find_sets	Backtracking/Other_forms/Python_forms/combination_sum.py	/^        def find_sets(arr,sum,temp,i):$/;"	f	function:Solution.combinationSum
 findrank	Arrays/sorted_permutation_rank_string.py	/^def findrank(A):$/;"	f
 firstMissingPositive	Arrays/first_missing_positive_integer.py	/^def firstMissingPositive(A):$/;"	f
+first_missing_positive_integer.py	Arrays/first_missing_positive_integer.py	1;"	F
+fizzbuzz.py	Arrays/fizzbuzz.py	1;"	F
 flip	Arrays/flip.py	/^def flip(A):$/;"	f
+flip.py	Arrays/flip.py	1;"	F
+fraction.py	Hashing/fraction.py	1;"	F
+fractionToDecimal	Hashing/fraction.py	/^    def fractionToDecimal(self, A, B):$/;"	m	class:Solution
+fractional_part	Hashing/fraction.py	/^        def fractional_part(A,B):$/;"	f	function:Solution.fractionToDecimal
+gas_station.c	Greedy_Algorithm/gas_station.c	1;"	F
 gcd	Arrays/fizzbuzz.py	/^def gcd(a,b):$/;"	f
 gcd	Math/largest_coprime_divisor.py	/^def gcd(a,b):$/;"	f
 generate	Arrays/K_Pascal.py	/^def generate(A):$/;"	f
 generate	Arrays/Pascal.py	/^def generate(A):$/;"	f
+getL	Heaps_and_Maps/n_max_heaps_wrong_solution_interviewbit.cpp	/^int getL(int n)$/;"	f
+getMin	Stacks_and_Queues/min_stack.c	/^int getMin() {$/;"	f
+getNumberOfMaxHeaps	Heaps_and_Maps/n_max_heaps_wrong_solution_interviewbit.cpp	/^long long int getNumberOfMaxHeaps(int n)$/;"	f
 get_carry	Arrays/add_one_number.py	/^    def get_carry(a,b):$/;"	f	function:plusOne
 get_digit	Arrays/add_one_number.py	/^    def get_digit(a,b):$/;"	f	function:plusOne
+getleft	Heaps_and_Maps/n_max_heaps_wrong_solution_geeks_for_geeks.cpp	/^int getleft(int n){$/;"	f
 give_lower_diagonal	Arrays/anti_diagonal.py	/^    def give_lower_diagonal(M,x):$/;"	f	function:diagonal
 give_matrix	Arrays/Prettyprint_2.py	/^    def give_matrix(M,startx,starty,length,value):$/;"	f	function:PrettyPrint
 give_row	Arrays/K_Pascal.py	/^    def give_row(row):$/;"	f	function:generate
 give_row	Arrays/Pascal.py	/^    def give_row(row):$/;"	f	function:generate
 give_upper_diagonal	Arrays/anti_diagonal.py	/^    def give_upper_diagonal(M,x):$/;"	f	function:diagonal
 hamming_distance	Arrays/hamming_distance.py	/^    def hamming_distance(x,y):$/;"	f	function:hamming_distance_pairwise_sum
+hamming_distance.py	Arrays/hamming_distance.py	1;"	F
 hamming_distance_pairwise_alter	Arrays/hamming_distance.py	/^def hamming_distance_pairwise_alter(A):$/;"	f
 hamming_distance_pairwise_sum	Arrays/hamming_distance.py	/^def hamming_distance_pairwise_sum(A):$/;"	f
+highest_product.c	Greedy_Algorithm/highest_product.c	1;"	F
 hotel	Arrays/hotel_booking.py	/^def hotel(arrive,depart,K):$/;"	f
+hotel_booking.py	Arrays/hotel_booking.py	1;"	F
+init	Stacks_and_Queues/min_stack.c	/^void init() {$/;"	f
+insertionSortList	Linked_List/insertion_sort_LL.c	/^listnode* insertionSortList(listnode* A) {$/;"	f
+insertion_sort_LL.c	Linked_List/insertion_sort_LL.c	1;"	F
+integer_to_roman.c	Strings/integer_to_roman.c	1;"	F
 intervals	Arrays/merged_overlapping_intervals.py	/^intervals = [Interval(1,2),Interval(3,4),Interval(1,3)]$/;"	v
 isEmpty	Stacks_and_Queues/evaluate_expression.c	/^ int isEmpty(stack* new_stack){$/;"	f
 isNumber	Strings/valid_number.py	/^    def isNumber(self, A):$/;"	m	class:Solution
 isPalindrome	Strings/palindrome_string.py	/^def isPalindrome(A):$/;"	f
 isPower	Math/power_of_two_integers.py	/^def isPower(A):$/;"	f
 isPrime	Math/list_of_primes.py	/^isPrime = sieve_of_erastothenes(A)$/;"	v
+isValid	Stacks_and_Queues/valid_parentheses.c	/^int isValid(char* A) {$/;"	f
+isValidBST	Trees/valid_BST.c	/^int isValidBST(treenode* A) {$/;"	f
 is_empty	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^int is_empty(stack_node* head){$/;"	f
 is_empty	Stacks_and_Queues/Stack_Tests/stack_array.h	/^int is_empty(Stack* stack)$/;"	f
 is_full	Stacks_and_Queues/Stack_Tests/stack_array.h	/^int is_full(Stack* stack)$/;"	f
 is_numeric_char	Strings/atoi.c	/^int is_numeric_char(char s){$/;"	f
+is_safe	Backtracking/N_queens.c	/^int is_safe(int** board, int N, int row, int col)$/;"	f
+is_sub_tree_greater	Trees/valid_BST.c	/^int is_sub_tree_greater(treenode* root, int data){$/;"	f
+is_sub_tree_lesser	Trees/valid_BST.c	/^int is_sub_tree_lesser(treenode* root, int data){$/;"	f
 isdigit	Strings/valid_number.py	/^        def isdigit(x):$/;"	f	function:Solution.isNumber
+lPalin	Linked_List/palindrome_linked_list.c	/^int lPalin(listnode* A) {$/;"	f
+largestRectangleArea	Stacks_and_Queues/largest_rectangle_histogram.c	/^int largestRectangleArea(int* A, int n1) {$/;"	f
+largest_continuous_subarray_with_sum_zero.c	Hashing/largest_continuous_subarray_with_sum_zero.c	1;"	F
+largest_coprime_divisor.py	Math/largest_coprime_divisor.py	1;"	F
 largest_number	Arrays/largest_number_array.py	/^def largest_number(A):$/;"	f
+largest_number_array.py	Arrays/largest_number_array.py	1;"	F
+largest_rectangle_histogram.c	Stacks_and_Queues/largest_rectangle_histogram.c	1;"	F
+last_word_string.py	Strings/last_word_string.py	1;"	F
+left	Trees/valid_BST.c	/^    struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
 lengthOfLastWord	Strings/last_word_string.py	/^def lengthOfLastWord(A):$/;"	f
+lengthOfLongestSubstring	Hashing/longest_substring_without_repeat.c	/^int lengthOfLongestSubstring(char* A) {$/;"	f
+letterCombinations	Backtracking/letter_phone.c	/^char** letterCombinations(char* A, int *len1)$/;"	f
+letter_phone.c	Backtracking/letter_phone.c	1;"	F
 lexographically_smaller	Arrays/flip.py	/^    def lexographically_smaller(a,b):$/;"	f	function:flip
+light_bulbs.c	Greedy_Algorithm/light_bulbs.c	1;"	F
+line_in_a_given_range	Shell_Scripting/line_in_a_given_range	1;"	F
+list_cycle.c	Linked_List/list_cycle.c	1;"	F
 list_of_primes	Math/list_of_primes.py	/^def list_of_primes(isPrime):$/;"	f
+list_of_primes.py	Math/list_of_primes.py	1;"	F
+listnode	Linked_List/add_linked_lists.c	/^typedef struct ListNode listnode;$/;"	t	typeref:struct:ListNode	file:
+listnode	Linked_List/insertion_sort_LL.c	/^typedef struct ListNode listnode;$/;"	t	typeref:struct:ListNode	file:
+listnode	Linked_List/merge_sorted_lists.c	/^typedef struct ListNode listnode;$/;"	t	typeref:struct:ListNode	file:
 listnode	Linked_List/partition_LL.c	/^typedef struct ListNode listnode;$/;"	t	typeref:struct:ListNode	file:
+listnode	Linked_List/remove_duplicates.c	/^typedef struct ListNode listnode;$/;"	t	typeref:struct:ListNode	file:
+listnode	Linked_List/remove_duplicates_II.c	/^typedef struct ListNode listnode;$/;"	t	typeref:struct:ListNode	file:
 listnode	Linked_List/reorder_LL.c	/^ typedef struct ListNode listnode;$/;"	t	typeref:struct:ListNode	file:
+listnode	Linked_List/reverse_between_given_indices.c	/^typedef struct ListNode listnode;$/;"	t	typeref:struct:ListNode	file:
+listnode	Linked_List/rotate_list_clockwise.c	/^typedef struct ListNode listnode;$/;"	t	typeref:struct:ListNode	file:
+listnode	Linked_List/sort_LL_interviewbit_solution.c	/^typedef struct ListNode listnode;$/;"	t	typeref:struct:ListNode	file:
+listnode_new	Linked_List/add_linked_lists.c	/^listnode* listnode_new(int val) {$/;"	f
+listnode_new	Linked_List/insertion_sort_LL.c	/^listnode* listnode_new(int val) {$/;"	f
+listnode_new	Linked_List/merge_sorted_lists.c	/^listnode* listnode_new(int val) {$/;"	f
 listnode_new	Linked_List/partition_LL.c	/^listnode* listnode_new(int val) {$/;"	f
+listnode_new	Linked_List/remove_duplicates.c	/^listnode* listnode_new(int val) {$/;"	f
+listnode_new	Linked_List/remove_duplicates_II.c	/^listnode* listnode_new(int val) {$/;"	f
 listnode_new	Linked_List/reorder_LL.c	/^ listnode* listnode_new(int val) {$/;"	f
+listnode_new	Linked_List/reverse_between_given_indices.c	/^listnode* listnode_new(int val) {$/;"	f
+listnode_new	Linked_List/rotate_list_clockwise.c	/^listnode* listnode_new(int val) {$/;"	f
+listnode_new	Linked_List/sort_LL_interviewbit_solution.c	/^listnode* listnode_new(int val) {$/;"	f
+log_2	Heaps_and_Maps/n_max_heaps_wrong_solution_geeks_for_geeks.cpp	/^int log_2[MAX];$/;"	v
+log_2	Heaps_and_Maps/n_max_heaps_wrong_solution_interviewbit.cpp	/^int log_2[MAXN];			\/* log_2[i] = int(log_2 base 2 of i) *\/$/;"	v
 longestCommonPrefix	Strings/longest_common_prefix.c	/^char* longestCommonPrefix(char** A, int n1) {$/;"	f
+longest_common_prefix.c	Strings/longest_common_prefix.c	1;"	F
+longest_substring_without_repeat.c	Hashing/longest_substring_without_repeat.c	1;"	F
+lszero	Hashing/largest_continuous_subarray_with_sum_zero.c	/^int* lszero(int* A, int n1, int *len1) {$/;"	f
+mRow	Backtracking/N_queens_all_solutions_interviewbit.c	/^int mRow;$/;"	v
+magician_chocolates.c	Heaps_and_Maps/magician_chocolates.c	1;"	F
+main	Backtracking/N_queens.c	/^int main(int argc, char** argv)$/;"	f
+main	Backtracking/N_queens_all_solutions_interviewbit.c	/^int main(int argc, char* argv)$/;"	f
+main	Backtracking/combinations.c	/^int main(int argc, char* argv)$/;"	f
+main	Backtracking/letter_phone.c	/^int main(int argc, char* argv)$/;"	f
+main	Backtracking/permutations.c	/^int main(int argc, char* argv)$/;"	f
+main	Backtracking/subset.c	/^int main(int argc, char* argv)$/;"	f
 main	Binary_Search/binary_rotated_array_search.c	/^int main(int argc, char* argv)$/;"	f
 main	Binary_Search/find_matrix_median.c	/^int main(int argc, char* argv)$/;"	f
 main	Binary_Search/search_insert.c	/^int main(int argc, char* argv)$/;"	f
 main	Binary_Search/search_range.c	/^int main(int argc, char* argv)$/;"	f
 main	Binary_Search/square_root_integer.c	/^int main(){$/;"	f
+main	Greedy_Algorithm/candy_distribution.c	/^int main(int argc, char* argv)$/;"	f
+main	Greedy_Algorithm/gas_station.c	/^int main(int argc, char* argv)$/;"	f
+main	Greedy_Algorithm/highest_product.c	/^int main(int argc, char* argv)$/;"	f
+main	Greedy_Algorithm/light_bulbs.c	/^int main(int argc, char* argv)$/;"	f
+main	Greedy_Algorithm/majority_element.c	/^int main(int argc, char* argv)$/;"	f
+main	Greedy_Algorithm/mice_and_holes.c	/^int main(int argc, char* argv)$/;"	f
+main	Greedy_Algorithm/minimum_hops.c	/^int main(int argc, char* argv)$/;"	f
+main	Hashing/largest_continuous_subarray_with_sum_zero.c	/^int main(int argc, char* argv)$/;"	f
+main	Hashing/longest_substring_without_repeat.c	/^int main(int argc, char* argv)$/;"	f
+main	Heaps_and_Maps/magician_chocolates.c	/^int main(int argc, char* argv)$/;"	f
+main	Linked_List/add_linked_lists.c	/^int main(int argc, char* argv)$/;"	f
+main	Linked_List/insertion_sort_LL.c	/^int main(int argc, char* argv)$/;"	f
+main	Linked_List/merge_sorted_lists.c	/^int main(int argc, char* argv)$/;"	f
+main	Linked_List/palindrome_linked_list.c	/^int main(int argc, char* argv)$/;"	f
+main	Linked_List/remove_duplicates.c	/^int main(int argc, char* argv)$/;"	f
+main	Linked_List/remove_duplicates_II.c	/^int main(int argc, char* argv)$/;"	f
+main	Linked_List/reverse_between_given_indices.c	/^int main(int argc, char* argv)$/;"	f
+main	Linked_List/rotate_list_clockwise.c	/^int main(int argc, char* argv)$/;"	f
+main	Linked_List/sort_LL_interviewbit_solution.c	/^int main(int argc, char* argv)$/;"	f
 main	Stacks_and_Queues/Stack_Tests/stack_test_LL.c	/^int main(){$/;"	f
 main	Stacks_and_Queues/Stack_Tests/stack_test_array.c	/^int main(){$/;"	f
+main	Stacks_and_Queues/evaluate_expression.c	/^int main(void)$/;"	f
+main	Stacks_and_Queues/largest_rectangle_histogram.c	/^int main(int argc, char* argv)$/;"	f
+main	Stacks_and_Queues/min_stack.c	/^int main(int argc, char* argv)$/;"	f
+main	Stacks_and_Queues/nearest_smaller_integer.c	/^int main(int argc, char* argv)$/;"	f
+main	Stacks_and_Queues/redundant_braces.c	/^int main(int argc, char* argv)$/;"	f
 main	Stacks_and_Queues/simplify_directory.c	/^int main(){$/;"	f
 main	Stacks_and_Queues/simplify_directory_interviewbit_solution.c	/^int main(){$/;"	f
+main	Stacks_and_Queues/sliding_window_maximum.c	/^int main(int argc, char* argv)$/;"	f
+main	Stacks_and_Queues/trapped_water.c	/^int main(int argc, char* argv)$/;"	f
+main	Stacks_and_Queues/valid_parentheses.c	/^int main(int argc, char* argv)$/;"	f
 main	Strings/atoi.c	/^int main(){$/;"	f
 main	Strings/compare_version.c	/^int main(int argc, char* argv)$/;"	f
 main	Strings/count_and_say.c	/^int main(int argc, char* argv[])$/;"	f
@@ -154,106 +371,263 @@ main	Strings/integer_to_roman.c	/^int main(int argc, char* argv)$/;"	f
 main	Strings/longest_common_prefix.c	/^int main(){$/;"	f
 main	Strings/multiply_strings.c	/^int main(int argc, char* argv)$/;"	f
 main	Strings/pretty_json.c	/^int main(){$/;"	f
+main	Trees/valid_BST.c	/^int main(int argc, char* argv)$/;"	f
 main	Two_Pointers/3sum.c	/^int main(int argc, char* argv)$/;"	f
 main	Two_Pointers/3sum_zero.c	/^int main(int argc, char* argv)$/;"	f
+main	Two_Pointers/3sum_zero_interviewbit_solution.c	/^int main(int argc, char* argv)$/;"	f
+main	Two_Pointers/Array_3_pointers.c	/^int main(int argc, char* argv)$/;"	f
 main	Two_Pointers/count_triangles.c	/^int main(int argc, char* argv)$/;"	f
 main	Two_Pointers/merge_sorted_lists.c	/^int main(int argc, char* argv)$/;"	f
 main	Two_Pointers/remove_duplicate_sorted_array.c	/^int main(int argc, char* argv)$/;"	f
 main	Two_Pointers/remove_duplicate_sorted_array_II.c	/^int main(int argc, char* argv)$/;"	f
+majorityElement	Greedy_Algorithm/majority_element.c	/^int majorityElement(const int* A, int n1) {$/;"	f
+majority_element.c	Greedy_Algorithm/majority_element.c	1;"	F
+max	Greedy_Algorithm/candy_distribution.c	/^int max(int x, int y){$/;"	f
+max	Greedy_Algorithm/highest_product.c	/^int max(int x, int y){$/;"	f
+max	Greedy_Algorithm/mice_and_holes.c	/^int max(int x, int y){$/;"	f
+max	Stacks_and_Queues/sliding_window_maximum.c	/^int max(int a, int b){$/;"	f
+max	Stacks_and_Queues/trapped_water.c	/^int max(int a, int b) { return (a>b)?(a):(b);}$/;"	f
+max	Two_Pointers/Array_3_pointers.c	33;"	d	file:
 max	Two_Pointers/diffPossible.c	8;"	d	file:
 max	Two_Pointers/minimize_absolute_difference.c	12;"	d	file:
 maxArr	Arrays/max_difference.py	/^def maxArr(A):$/;"	f
 maxArr_alternative	Arrays/max_difference.py	/^def maxArr_alternative(A):$/;"	f
 max_cons_gap	Arrays/max_consecutive_gap.py	/^def max_cons_gap(A):$/;"	f
+max_consecutive_gap.py	Arrays/max_consecutive_gap.py	1;"	F
+max_difference.py	Arrays/max_difference.py	1;"	F
+max_distance.py	Arrays/max_distance.py	1;"	F
 max_gap	Arrays/max_distance.py	/^def max_gap(A):$/;"	f
 maximum	Two_Pointers/minimize_absolute_difference.c	/^ int maximum(int x, int y, int z)$/;"	f
 maxone	Two_Pointers/maxone.c	/^int* maxone(int* A, int n1, int B, int *len1) {$/;"	f
+maxone.c	Two_Pointers/maxone.c	1;"	F
+maxp3	Greedy_Algorithm/highest_product.c	/^int maxp3(int* A, int n1) {$/;"	f
 merge	Arrays/merged_overlapping_intervals.py	/^def merge(intervals):$/;"	f
 merge	Two_Pointers/merge_sorted_lists.c	/^int* merge(int* A, int n1, int* B, int n2) {$/;"	f
+mergeTwoLists	Linked_List/merge_sorted_lists.c	/^listnode* mergeTwoLists(listnode* A, listnode* B) {$/;"	f
+mergeTwoLists	Linked_List/sort_LL_interviewbit_solution.c	/^listnode* mergeTwoLists(listnode* A, listnode* B) {$/;"	f
+merge_sorted_lists.c	Linked_List/merge_sorted_lists.c	1;"	F
+merge_sorted_lists.c	Two_Pointers/merge_sorted_lists.c	1;"	F
+merged_overlapping_intervals.py	Arrays/merged_overlapping_intervals.py	1;"	F
+mergesort	Linked_List/sort_LL_interviewbit_solution.c	/^void mergesort(listnode **A)$/;"	f
+mice	Greedy_Algorithm/mice_and_holes.c	/^int mice(int* A, int n1, int* B, int n2) {$/;"	f
+mice_and_holes.c	Greedy_Algorithm/mice_and_holes.c	1;"	F
+min	Stacks_and_Queues/trapped_water.c	/^int min(int a, int b) { return (a>b)?(b):(a);}$/;"	f
+min	Two_Pointers/Array_3_pointers.c	34;"	d	file:
 min	Two_Pointers/diffPossible.c	9;"	d	file:
 min	Two_Pointers/minimize_absolute_difference.c	13;"	d	file:
+min_element	Stacks_and_Queues/min_stack.c	/^int min_element=0;$/;"	v
+min_stack.c	Stacks_and_Queues/min_stack.c	1;"	F
+minimize	Two_Pointers/Array_3_pointers.c	/^int minimize(const int* A, int n1, const int* B, int n2, const int* C, int n3) {$/;"	f
+minimize_absolute_difference.c	Two_Pointers/minimize_absolute_difference.c	1;"	F
 minimum	Two_Pointers/minimize_absolute_difference.c	/^  int minimum(int x, int y, int z)$/;"	f
+minimum_hops.c	Greedy_Algorithm/minimum_hops.c	1;"	F
 multiply	Strings/multiply_strings.c	/^char* multiply(char* A, char* B) {$/;"	f
+multiply_strings.c	Strings/multiply_strings.c	1;"	F
 my_ceil	Binary_Search/search_range.c	/^int my_ceil(const int* A, int low, int high, int B){$/;"	f
 my_cmp	Arrays/largest_number_array.py	/^    def my_cmp(a,b):$/;"	f	function:largest_number
 my_floor	Binary_Search/search_range.c	/^int my_floor(const int* A, int low, int high, int B){$/;"	f
+nCk	Heaps_and_Maps/n_max_heaps_wrong_solution_geeks_for_geeks.cpp	/^int nCk[MAX][MAX];$/;"	v
 nTriang	Two_Pointers/count_triangles.c	/^int nTriang(int* A, int n1) {$/;"	f
+n_by_3_repeat.py	Arrays/n_by_3_repeat.py	1;"	F
+n_max_heaps	Heaps_and_Maps/n_max_heaps_wrong_solution_geeks_for_geeks.cpp	/^int n_max_heaps(int n){$/;"	f
+n_max_heaps_wrong_solution_geeks_for_geeks.cpp	Heaps_and_Maps/n_max_heaps_wrong_solution_geeks_for_geeks.cpp	1;"	F
+n_max_heaps_wrong_solution_interviewbit.cpp	Heaps_and_Maps/n_max_heaps_wrong_solution_interviewbit.cpp	1;"	F
+nchoc	Heaps_and_Maps/magician_chocolates.c	/^int nchoc(int A, int* B, int n2) {$/;"	f
+nck	Heaps_and_Maps/n_max_heaps_wrong_solution_interviewbit.cpp	/^long long int nck[MAXN][MAXN];	\/* nck[i][j] = i choose j if i>=j else 0 *\/$/;"	v
+nearest_smaller_integer.c	Stacks_and_Queues/nearest_smaller_integer.c	1;"	F
 new_node	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^stack_node* new_node(int new_data){$/;"	f
+next	Linked_List/add_linked_lists.c	/^		struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	Linked_List/insertion_sort_LL.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	Linked_List/merge_sorted_lists.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
 next	Linked_List/partition_LL.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	Linked_List/remove_duplicates.c	/^		struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	Linked_List/remove_duplicates_II.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
 next	Linked_List/reorder_LL.c	/^     struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	Linked_List/reverse_between_given_indices.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	Linked_List/rotate_list_clockwise.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	Linked_List/sort_LL_interviewbit_solution.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
 next	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^	struct stack_node* next;$/;"	m	struct:stack_node	typeref:struct:stack_node::stack_node
 next_permutation	Arrays/next_permutation.py	/^def next_permutation(A):$/;"	f
+next_permutation.py	Arrays/next_permutation.py	1;"	F
 noble_integer	Arrays/noble_integer.py	/^def noble_integer(A):$/;"	f
+noble_integer.py	Arrays/noble_integer.py	1;"	F
 noble_integer_alter	Arrays/noble_integer.py	/^def noble_integer_alter(A):$/;"	f
 num2col	Math/excel_column_to_number.py	/^def num2col(A):$/;"	f
+order	Backtracking/N_queens_all_solutions_interviewbit.c	/^char *order;$/;"	v
+palindrome_linked_list.c	Linked_List/palindrome_linked_list.c	1;"	F
+palindrome_string.py	Strings/palindrome_string.py	1;"	F
 partition	Linked_List/partition_LL.c	/^listnode* partition(listnode* A, int B) {$/;"	f
+partition_LL.c	Linked_List/partition_LL.c	1;"	F
 peek	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^int peek(stack_node* head){$/;"	f
 peek	Stacks_and_Queues/Stack_Tests/stack_array.h	/^int peek(Stack* stack)$/;"	f
 peek	Stacks_and_Queues/evaluate_expression.c	/^ char peek(stack* new_stack){$/;"	f
+permutations.c	Backtracking/permutations.c	1;"	F
+permutations.py	Backtracking/Other_forms/Python_forms/permutations.py	1;"	F
+permute	Backtracking/Other_forms/Python_forms/permutations.py	/^    def permute(self, A):$/;"	m	class:Solution
+permute	Backtracking/permutations.c	/^int** permute(int* A, int n1, int *len1, int *len2) {$/;"	f
+permute_helper	Backtracking/Other_forms/Python_forms/permutations.py	/^        def permute_helper(start,end):$/;"	f	function:Solution.permute
+permute_helper	Backtracking/permutations.c	/^void permute_helper(int* A, int n1,int start, int end,int** result)$/;"	f
 plusOne	Arrays/add_one_number.py	/^def plusOne(A):        $/;"	f
 pop	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^int pop(stack_node** head){$/;"	f
 pop	Stacks_and_Queues/Stack_Tests/stack_array.h	/^int pop(Stack* stack)$/;"	f
 pop	Stacks_and_Queues/evaluate_expression.c	/^ int pop(stack* new_stack){$/;"	f
+pop	Stacks_and_Queues/min_stack.c	/^void pop() {$/;"	f
 power	Strings/power_of_2.py	/^def power(A):$/;"	f
+power_of_2.py	Strings/power_of_2.py	1;"	F
+power_of_two_integers.py	Math/power_of_two_integers.py	1;"	F
 powmod	Binary_Search/powmod.c	/^int powmod(int x, int n, int d) {$/;"	f
+powmod.c	Binary_Search/powmod.c	1;"	F
 prettyJSON	Strings/pretty_json.c	/^char** prettyJSON(char* A, int *len1) {$/;"	f
+pretty_json.c	Strings/pretty_json.c	1;"	F
 pretty_print	Arrays/pretty_print_jump_problem.py	/^def pretty_print(A):$/;"	f
+pretty_print_jump_problem.py	Arrays/pretty_print_jump_problem.py	1;"	F
+prevSmaller	Stacks_and_Queues/nearest_smaller_integer.c	/^int* prevSmaller(int* A, int n1, int *len1) {$/;"	f
+print_array	Backtracking/permutations.c	/^void print_array(int* A,int n1)$/;"	f
+print_matrix	Backtracking/N_queens.c	/^void print_matrix(int** A, int rows, int cols)$/;"	f
 print_roman	Strings/integer_to_roman.c	/^void print_roman(int A){$/;"	f
 push	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^void push(stack_node** head, int push_data){$/;"	f
 push	Stacks_and_Queues/Stack_Tests/stack_array.h	/^void push(Stack* stack, int data)$/;"	f
 push	Stacks_and_Queues/evaluate_expression.c	/^ void push(stack* new_stack, int op){$/;"	f
+push	Stacks_and_Queues/min_stack.c	/^void push(int x) {$/;"	f
+rearrange_array.py	Arrays/rearrange_array.py	1;"	F
+redundant_braces.c	Stacks_and_Queues/redundant_braces.c	1;"	F
 removeDuplicates	Two_Pointers/remove_duplicate_sorted_array.c	/^int removeDuplicates(int* A, int n1) {$/;"	f
 removeDuplicates	Two_Pointers/remove_duplicate_sorted_array_II.c	/^int removeDuplicates(int* A, int n1) {$/;"	f
 removeNthFromEnd	Linked_List/remove_nth_element_from_end.c	/^listnode* removeNthFromEnd(listnode* A, int B) {$/;"	f
+remove_duplicate_sorted_array.c	Two_Pointers/remove_duplicate_sorted_array.c	1;"	F
+remove_duplicate_sorted_array_II.c	Two_Pointers/remove_duplicate_sorted_array_II.c	1;"	F
+remove_duplicates.c	Linked_List/remove_duplicates.c	1;"	F
+remove_duplicates_II.c	Linked_List/remove_duplicates_II.c	1;"	F
+remove_nth_element_from_end.c	Linked_List/remove_nth_element_from_end.c	1;"	F
 remove_preceeding_spaces	Strings/last_word_string.py	/^        def remove_preceeding_spaces(s):$/;"	f	function:lengthOfLastWord
 remove_trailing_spaces	Strings/last_word_string.py	/^        def remove_trailing_spaces(s):$/;"	f	function:lengthOfLastWord
 reorderList	Linked_List/reorder_LL.c	/^listnode* reorderList(listnode* A) {$/;"	f
+reorder_LL.c	Linked_List/reorder_LL.c	1;"	F
 repeat_chars_freq	Arrays/sorted_permutation_rank_string.py	/^    def repeat_chars_freq(i,A):$/;"	f	function:findrank
+repeat_missing_number.py	Arrays/repeat_missing_number.py	1;"	F
 repeated_Number	Arrays/n_by_3_repeat.py	/^def repeated_Number(A):$/;"	f
 repeated_number	Arrays/duplicate.py	/^def repeated_number(A):$/;"	f
 repeated_number	Arrays/repeat_missing_number.py	/^def repeated_number(number_array):$/;"	f
 repeated_number_alternative	Arrays/repeat_missing_number.py	/^def repeated_number_alternative(number_array):$/;"	f
+result	Backtracking/N_queens_all_solutions_interviewbit.c	/^char ***result;$/;"	v
+result	Backtracking/Other_forms/Python_forms/combination_sum.py	/^result = []$/;"	v
+reverse	Linked_List/palindrome_linked_list.c	/^void reverse(listnode** head){$/;"	f
+reverse	Linked_List/reverse_between_given_indices.c	/^listnode* reverse(listnode* head){$/;"	f
 reverse	Math/reverse_integer.py	/^def reverse(A):$/;"	f
+reverseBetween	Linked_List/reverse_between_given_indices.c	/^listnode* reverseBetween(listnode* A, int B, int C) {$/;"	f
+reverse_between_given_indices.c	Linked_List/reverse_between_given_indices.c	1;"	F
 reverse_cols	Arrays/rotate_90.py	/^    def reverse_cols(A):$/;"	f	function:rotate_90_clock
+reverse_integer.py	Math/reverse_integer.py	1;"	F
 reverselist	Linked_List/reorder_LL.c	/^void reverselist(listnode* head){$/;"	f
+right	Trees/valid_BST.c	/^    struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
 romanToInt	Strings/roman_to_integer.py	/^    def romanToInt(self, A):$/;"	m	class:Solution
+roman_to_integer.py	Strings/roman_to_integer.py	1;"	F
 rooms_occupied	Arrays/hotel_booking.py	/^    def rooms_occupied(arrive,depart,i):$/;"	f	function:hotel
+rotateRight	Linked_List/rotate_list_clockwise.c	/^listnode* rotateRight(listnode* A, int B) {$/;"	f
+rotate_90.py	Arrays/rotate_90.py	1;"	F
 rotate_90_clock	Arrays/rotate_90.py	/^def rotate_90_clock(A):    $/;"	f
+rotate_list_clockwise.c	Linked_List/rotate_list_clockwise.c	1;"	F
+rotated_unsorted_binary_search.c	Binary_Search/rotated_unsorted_binary_search.c	1;"	F
+row	Backtracking/combinations.c	/^int row = 0;$/;"	v
 sample_input	Arrays/repeat_missing_number.py	/^sample_input = [3,1,2,3,5]$/;"	v
 search	Binary_Search/rotated_unsorted_binary_search.c	/^int search(const int* A, int n1, int B) {$/;"	f
 searchInsert	Binary_Search/search_insert.c	/^int searchInsert(int* A, int n1, int B) {$/;"	f
 searchMatrix	Binary_Search/searchMatrix.c	/^int searchMatrix(int** A, int n11, int n12, int B) {$/;"	f
+searchMatrix.c	Binary_Search/searchMatrix.c	1;"	F
 searchRange	Binary_Search/search_range.c	/^int* searchRange(const int* A, int n1, int B, int *len1) {$/;"	f
+search_insert.c	Binary_Search/search_insert.c	1;"	F
+search_range.c	Binary_Search/search_range.c	1;"	F
+seats	Greedy_Algorithm/minimum_hops.c	/^int seats(char* A) {$/;"	f
 setZeroes	Arrays/set_matrix_zeros.py	/^def setZeroes(A):$/;"	f
 set_column	Arrays/set_matrix_zeros.py	/^    def set_column(i,j):$/;"	f	function:setZeroes
+set_matrix_zeros.py	Arrays/set_matrix_zeros.py	1;"	F
 set_row	Arrays/set_matrix_zeros.py	/^    def set_row(i,j):$/;"	f	function:setZeroes
 sieve_of_erastothenes	Math/list_of_primes.py	/^def sieve_of_erastothenes(A):$/;"	f
 sieve_of_erastothenes	Math/sum_of_primes.py	/^    def sieve_of_erastothenes(A):$/;"	f	function:find_prime_pair
 simplifyPath	Stacks_and_Queues/simplify_directory.c	/^char* simplifyPath(char* A) {$/;"	f
 simplifyPath	Stacks_and_Queues/simplify_directory_interviewbit_solution.c	/^char* simplifyPath(char* A) {$/;"	f
+simplify_directory.c	Stacks_and_Queues/simplify_directory.c	1;"	F
+simplify_directory_interviewbit_solution.c	Stacks_and_Queues/simplify_directory_interviewbit_solution.c	1;"	F
+slidingMaximum	Stacks_and_Queues/sliding_window_maximum.c	/^int* slidingMaximum(const int* A, int n1, int B, int *len1) {$/;"	f
+sliding_window_maximum.c	Stacks_and_Queues/sliding_window_maximum.c	1;"	F
 solve	Arrays/triplets_with_sum_1_2.py	/^def solve(A):$/;"	f
+solve	Heaps_and_Maps/n_max_heaps_wrong_solution_geeks_for_geeks.cpp	/^int Solution::solve(int A) {$/;"	f	class:Solution
+solve	Heaps_and_Maps/n_max_heaps_wrong_solution_interviewbit.cpp	/^int Solution::solve(int n)$/;"	f	class:Solution
 solve	Two_Pointers/minimize_absolute_difference.c	/^int solve(int* A, int n1, int* B, int n2, int* C, int n3) {$/;"	f
+solveNQueens	Backtracking/N_queens_all_solutions_interviewbit.c	/^char*** solveNQueens(int A, int *len1, int *len2) {$/;"	f
+solve_n_queens	Backtracking/N_queens.c	/^int solve_n_queens(int** board,int N,int col)$/;"	f
+solve_n_queens_wrapper	Backtracking/N_queens.c	/^void solve_n_queens_wrapper(int** board,int N)$/;"	f
+sortList	Linked_List/sort_LL_interviewbit_solution.c	/^listnode* sortList(listnode* A) {$/;"	f
+sort_LL_interviewbit_solution.c	Linked_List/sort_LL_interviewbit_solution.c	1;"	F
+sort_by_frequency.sh	Shell_Scripting/sort_by_frequency.sh	1;"	F
+sorted_insert	Linked_List/insertion_sort_LL.c	/^void sorted_insert(listnode** head, listnode* new_node){$/;"	f
+sorted_permutation_rank_string.py	Arrays/sorted_permutation_rank_string.py	1;"	F
 spiral	Arrays/spiral_order_print_2.py	/^def spiral(matrix, level):$/;"	f
 spiral_order_print	Arrays/spiral_order_print.py	/^def spiral_order_print(A):$/;"	f
+spiral_order_print.py	Arrays/spiral_order_print.py	1;"	F
+spiral_order_print_2.py	Arrays/spiral_order_print_2.py	1;"	F
 sqrt	Binary_Search/square_root_integer.py	/^def sqrt(A):$/;"	f
 square_list	Arrays/repeat_missing_number.py	/^def square_list(A):$/;"	f
 square_root_int	Binary_Search/square_root_integer.c	/^int square_root_int(int A){$/;"	f
+square_root_integer.c	Binary_Search/square_root_integer.c	1;"	F
+square_root_integer.py	Binary_Search/square_root_integer.py	1;"	F
 stack	Stacks_and_Queues/evaluate_expression.c	/^ }stack;$/;"	t	typeref:struct:Stack	file:
+stack	Stacks_and_Queues/min_stack.c	/^static int stack[10000000];$/;"	v	file:
+stack_LL.h	Stacks_and_Queues/Stack_Tests/stack_LL.h	1;"	F
+stack_array.h	Stacks_and_Queues/Stack_Tests/stack_array.h	1;"	F
 stack_node	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^typedef struct stack_node$/;"	s
 stack_node	Stacks_and_Queues/Stack_Tests/stack_LL.h	/^}stack_node; $/;"	t	typeref:struct:stack_node
+stack_test_LL.c	Stacks_and_Queues/Stack_Tests/stack_test_LL.c	1;"	F
+stack_test_array.c	Stacks_and_Queues/Stack_Tests/stack_test_array.c	1;"	F
 strStr	Strings/strStr.c	/^int strStr(const char* A, const char* B) {$/;"	f
+strStr.c	Strings/strStr.c	1;"	F
 sub_digit	Strings/integer_to_roman.c	/^int sub_digit(char num_1, char num_2, int i, char* c){$/;"	f
 sub_unsort	Arrays/sub_unsort.py	/^def sub_unsort(A):$/;"	f
+sub_unsort.py	Arrays/sub_unsort.py	1;"	F
 sub_unsort_alter	Arrays/sub_unsort.py	/^def sub_unsort_alter(A):$/;"	f
+subset.c	Backtracking/subset.c	1;"	F
+subsets	Backtracking/Other_forms/CPP_forms/subsets.cpp	/^vector<vector<int> > subsets(vector<int> &A) {$/;"	f
+subsets	Backtracking/subset.c	/^int** subsets(int* A, int n1, int *len1, int *len2) {$/;"	f
+subsets.cpp	Backtracking/Other_forms/CPP_forms/subsets.cpp	1;"	F
+subsets_util	Backtracking/Other_forms/CPP_forms/subsets.cpp	/^void subsets_util(vector<int> &A, vector<vector<int> > &result, vector<int> &subset,int index){$/;"	f
+substring_concatenation.py	Hashing/substring_concatenation.py	1;"	F
+sum_of_primes.py	Math/sum_of_primes.py	1;"	F
+swap	Backtracking/permutations.c	/^void swap(int* A,int i, int j){$/;"	f
 threeSum	Two_Pointers/3sum_zero.c	/^int ** threeSum(int* A, int n1, int *len1, int *len2) {$/;"	f
+threeSum	Two_Pointers/3sum_zero_interviewbit_solution.c	/^int** threeSum(int* A, int n1, int *len1, int *len2) {$/;"	f
 threeSumClosest	Two_Pointers/3sum.c	/^int threeSumClosest(int* A, int n1, int B) {$/;"	f
 top	Stacks_and_Queues/Stack_Tests/stack_array.h	/^	int top;$/;"	m	struct:Stack_t
 top	Stacks_and_Queues/evaluate_expression.c	/^     int top;$/;"	m	struct:Stack	file:
+top	Stacks_and_Queues/min_stack.c	/^int top() {$/;"	f
+top_index	Stacks_and_Queues/min_stack.c	/^int top_index=-1;$/;"	v
+total_combinations	Backtracking/letter_phone.c	/^int total_combinations(char* A,char** map)$/;"	f
 trail_zeros	Math/trailing_zeros.py	/^def trail_zeros(A):$/;"	f
+trailing_zeros.py	Math/trailing_zeros.py	1;"	F
 transpose	Arrays/rotate_90.py	/^    def transpose(A):$/;"	f	function:rotate_90_clock
+trap	Stacks_and_Queues/trapped_water.c	/^int trap(const int* A, int n1) {$/;"	f
+trapped_water.c	Stacks_and_Queues/trapped_water.c	1;"	F
+treenode	Trees/valid_BST.c	/^typedef struct TreeNode treenode;$/;"	t	typeref:struct:TreeNode	file:
+treenode_new	Trees/valid_BST.c	/^treenode* treenode_new(int val) {$/;"	f
+triplets_with_sum_1_2.py	Arrays/triplets_with_sum_1_2.py	1;"	F
 upper_bound	Binary_Search/find_matrix_median.c	/^int upper_bound(int** A, int i, int low, int high, int B){$/;"	f
+val	Linked_List/add_linked_lists.c	/^		int val;$/;"	m	struct:ListNode	file:
+val	Linked_List/insertion_sort_LL.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	Linked_List/merge_sorted_lists.c	/^    int val;$/;"	m	struct:ListNode	file:
 val	Linked_List/partition_LL.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	Linked_List/remove_duplicates.c	/^		int val;$/;"	m	struct:ListNode	file:
+val	Linked_List/remove_duplicates_II.c	/^    int val;$/;"	m	struct:ListNode	file:
 val	Linked_List/reorder_LL.c	/^     int val;$/;"	m	struct:ListNode	file:
+val	Linked_List/reverse_between_given_indices.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	Linked_List/rotate_list_clockwise.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	Linked_List/sort_LL_interviewbit_solution.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	Trees/valid_BST.c	/^    int val;$/;"	m	struct:TreeNode	file:
+valid_BST.c	Trees/valid_BST.c	1;"	F
 valid_char	Strings/palindrome_string.py	/^def valid_char(ch):$/;"	f
+valid_number.py	Strings/valid_number.py	1;"	F
+valid_parentheses.c	Stacks_and_Queues/valid_parentheses.c	1;"	F
+valid_phone_number	Shell_Scripting/valid_phone_number	1;"	F
+valid_substring	Hashing/substring_concatenation.py	/^        def valid_substring(X, Y):$/;"	f	function:Solution.findSubstring
 value	Strings/roman_to_integer.py	/^def value(r):$/;"	f
 wave	Arrays/wave_sort.py	/^def wave(A):$/;"	f
+wave_sort.py	Arrays/wave_sort.py	1;"	F
+zig_zag_pattern.py	Strings/zig_zag_pattern.py	1;"	F

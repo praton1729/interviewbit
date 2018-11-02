@@ -10,35 +10,72 @@
 
 char* simplifyPath(char* A) {
 
-    int t = 0, c = 1, p = 1, op;
+		int n=strlen(A);
+		char *s=(char*)malloc(sizeof(char)*(n+1));
+		int top=-1,i;
+		int dot=0;
 
-    for (;; c++) {
+		for(i=0;i<n;i++)
+		{
+				if(A[i]=='.')
+				{
+						dot++;
+				}
+				else
+				{
+						if(dot==1)
+						{
+								dot=0;
+						}
+						if(dot==2)
+						{
+								top--;
+								while(s[top]!='/' && top>0)
+										top--;
+								dot=0;
+						}
+						if(dot>2)
+						{
+								while(dot)
+								{   dot--;
+										s[++top]='.';
+								}
+						}
+						if(top>=0 && A[i]=='/' && s[top]=='/')
+								continue;
+						s[++top]=A[i];
+				}
+		}
 
-        if (A[c] == 0 || A[c] == '/') {
-
-            op = p;
-            p = c + 1;
-
-            if (c - op == 2 && A[op] == '.' && A[op+1] == '.') {
-                if (t) t--;
-                while (A[t] != '/') t--;
-                goto cont;
-            } 
-	    else if (c - op == 1 && A[op] == '.') {
-                goto cont;
-            }
-            if (op < c) {
-                A[t++] = '/';
-                while (op < c && A[op] != '/') {
-                    A[t++] = A[op++];
-                }
-            }
-        }
-        cont:
-        if (!A[c]) break;
-    }
-    A[t ? t : 1] = '\0';
-    return A;
+		if(dot==1)
+		{
+				dot=0;
+		}
+		if(dot==2)
+		{
+				top--;
+				while(s[top]!='/')
+						top--;
+				dot=0;
+		}
+		if(dot>2)
+		{
+				while(dot)
+				{   	
+						dot--;
+						s[++top]='.';
+				}
+		}
+		if(s[top]=='/' && top>0)
+				s[top]='\0';
+		else if(top>=0)
+				s[++top]='\0';
+		else if(top<0)
+		{
+				s[++top]='/';
+				s[++top]='\0';
+		}
+		return s;
 }
 
 int main(){

@@ -83,3 +83,8 @@ int evalRPN(char** A, int n1) {
     return pop(my_stack);
 }
 
+int main(void)
+{
+	return 0;
+}
+

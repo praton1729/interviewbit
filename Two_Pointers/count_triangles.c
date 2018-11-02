@@ -28,7 +28,7 @@
  */
  
  int compare(const void* a, const void* b){
-     return ( *(int*)a - *(int*)b);
+     return (*(int*)a - *(int*)b);
  }
  
 int nTriang(int* A, int n1) {

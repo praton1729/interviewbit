@@ -35,7 +35,8 @@ int** subsets(int* A, int n1, int *len1, int *len2) {
 
 		qsort(A, n1,sizeof(int),compare);
 
-		int rows = pow(2,n1),i,j,k;
+		int rows = (int) pow((double) 2,(double) n1);
+		int i,j,k;
 
 		*len1 = rows;
 		*len2 = n1;
