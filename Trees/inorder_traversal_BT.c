@@ -5,11 +5,11 @@
 
 * Purpose		:	A func() which transverses
 					a binary tree inorder and 
-					returns an int array of values.	
+					returns an int array of values.
 
 * Creation Date	:	02-11-2018
 
-* Last Modified	:	Mon 22 Dec 2008 10:36:49 PM PST
+* Last Modified	:	Friday 02 November 2018 04:47:58 PM IST
 
 * Created By	: 	Prathu Baronia, 14D070046 
 
@@ -20,7 +20,6 @@
 #include<string.h>
 #include<limits.h>
 #include<math.h>
-
 
 //Definition for binary tree
 
@@ -91,10 +90,8 @@ int* inorderTraversal(treenode* A, int *len1)
 		*len1 = count;
 		return result;
 }
-
-
 int main(int argc, char* argv)
 {
 
-		return 0;
+	return 0;
 }
