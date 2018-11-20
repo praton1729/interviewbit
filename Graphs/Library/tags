@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/befcb88/
+$(INTERNAL)	Makefile	/^$(INTERNAL):$/;"	t
+DFS	Makefile	/^DFS: library$/;"	t
+INTERNAL	Makefile	/^INTERNAL = graph$/;"	m
+Makefile	Makefile	1;"	F
+Node	include/graph.h	/^struct Node$/;"	s
+___graph_h___	include/graph.h	/^#define ___graph_h___$/;"	d
+add_edge	src/graph.c	/^void add_edge(node** list, int source,int sink)$/;"	f	typeref:typename:void
+all	Makefile	/^all: DFS tags$/;"	t
+clean	Makefile	/^clean:$/;"	t
+create_new_node	src/graph.c	/^node* create_new_node(int number)$/;"	f	typeref:typename:node *
+default	Makefile	/^default:all$/;"	t
+dfs	src/graph.c	/^void dfs(node** sorted_list,int nodes)$/;"	f	typeref:typename:void
+dfs.c	build/dfs.c	1;"	F
+dfs_util	src/graph.c	/^void dfs_util(node** sorted_list,int* visited, int dfs_root)$/;"	f	typeref:typename:void
+graph.c	src/graph.c	1;"	F
+graph.h	include/graph.h	1;"	F
+initialize_list	src/graph.c	/^void initialize_list(node** sorted_list, int nodes)$/;"	f	typeref:typename:void
+library	Makefile	/^library: $(INTERNAL)$/;"	t
+main	build/dfs.c	/^int main(int argc, char* argv)$/;"	f	typeref:typename:int
+make_adjacency_list	src/graph.c	/^node** make_adjacency_list(int* source, int* sink, int n, int nodes)$/;"	f	typeref:typename:node **
+next	include/graph.h	/^	struct Node* next;$/;"	m	struct:Node	typeref:struct:Node *
+node	include/graph.h	/^typedef struct Node node;$/;"	t	typeref:struct:Node
+node_number	include/graph.h	/^	int node_number;$/;"	m	struct:Node	typeref:typename:int
+print_adjacency_list	src/graph.c	/^void print_adjacency_list(node** sorted_list, int nodes)$/;"	f	typeref:typename:void
+tags	Makefile	/^tags:$/;"	t
