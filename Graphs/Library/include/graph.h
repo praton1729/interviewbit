@@ -1,6 +1,8 @@
 #ifndef ___graph_h___
 #define ___graph_h___
 
+#define QUEUE_SIZE 100
+
 struct Node
 {
 	int node_number;
@@ -19,6 +21,8 @@ void initialize_list(node** sorted_list, int nodes);
 
 void print_adjacency_list(node** sorted_list, int nodes);
 	
-void dfs(node** sorted_list,int nodes);
+void dfs(node** sorted_list,int nodes, int dfs_root);
+
+void bfs(node** sorted_list,int nodes,int bfs_root);
 
 #endif

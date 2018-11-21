@@ -1,10 +1,10 @@
 
 /*=========================================
 
-* File Name		:	dfs.c
+* File Name		:	bfs.c
 
 * Purpose		:	A func() that performs
-					dfs on a given graph.
+					bfs on a given graph.
 
 * Creation Date	:	21-11-2018
 
@@ -41,7 +41,7 @@ int main(int argc, char* argv)
 
 	print_adjacency_list(sorted_list, nodes);
 	
-	dfs(sorted_list,nodes,0);
+	bfs(sorted_list,nodes,0);
 
 	return 0;
 }

@@ -127,7 +127,7 @@ void print_adjacency_list(node** sorted_list, int nodes)
 		{
 				temp = sorted_list[i];
 
-				printf("%d ",i);
+				printf("%d : ",i);
 
 				while(temp!=NULL)
 				{
@@ -161,7 +161,7 @@ void dfs_util(node** sorted_list,int* visited, int dfs_root)
 		return;
 }	
 
-void dfs(node** sorted_list,int nodes)
+void dfs(node** sorted_list,int nodes,int dfs_root)
 {
 		int i;
 
@@ -169,10 +169,63 @@ void dfs(node** sorted_list,int nodes)
 
 		for(i=0;i<nodes;i++) visited[i] = 0;
 
-		for(i=0;i<nodes;i++)
+		for(i=dfs_root;i<nodes;i++)
 		{
 				if(visited[i]==0) dfs_util(sorted_list,visited,i);	
 		}
 
 		return;
+}
+
+void bfs(node** sorted_list,int nodes,int bfs_root)
+{
+		int i, source_node_index, temp_source_index;
+
+		int* visited = (int*) malloc(nodes*sizeof(int));
+
+		for(i=0;i<nodes;i++) visited[i] = 0;
+
+		int* queue = (int*) malloc(QUEUE_SIZE*sizeof(int));
+
+		int front 	 = 0;
+		int queue_len  = 0;
+		int current = 0;
+
+		visited[bfs_root] = 1;
+
+		queue[front] = bfs_root;
+
+		queue_len++;
+		current++;
+
+		node* temp_source;
+
+		while(queue_len!=0)
+		{
+				temp_source = sorted_list[queue[front]];
+
+				source_node_index = temp_source->node_number;
+
+				printf("Visited Node : %d\n",queue[front]);
+				
+				front++; // Queue pop
+				queue_len--;
+
+				while(temp_source!=NULL)
+				{
+						temp_source_index = temp_source->node_number;
+
+						if(visited[temp_source_index]==0)
+						{
+								visited[temp_source_index] = 1;
+
+								queue[current++] = temp_source_index;
+								queue_len++;
+						}
+
+						temp_source = temp_source->next;				
+				}	
+		}
+
+		return;	
 }
